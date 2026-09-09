@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "python数据分析/Linux.计算机简介.md",
+                "file": "python数据分析/Linux.操作系统简介.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Linux.计算机简介"
+              "title": "Linux.操作系统简介"
             }
           }
         ]
@@ -199,7 +199,7 @@
   "active": "4b1a963f796bceb5",
   "lastOpenFiles": [
     "python数据分析/1.数据处理和统计分析大纲.md",
-    "python数据分析/Linux.计算机简介.md",
+    "python数据分析/Linux.操作系统简介.md",
     "assets/images/{B745DCA2-CF40-42BA-9F3D-E93B4A29DDA8}.png",
     "python数据分析",
     "斯坦福CS144计网/4.数据包的一天.md",
