@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "黑马python进阶/第一章 01.封装简介.md",
+                "file": "黑马python进阶/第一章 01.封装,继承与多态简介.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "第一章 01.封装简介"
+              "title": "第一章 01.封装,继承与多态简介"
             }
           }
         ]
@@ -201,7 +201,7 @@
   "lastOpenFiles": [
     "assets/images/{E1A69847-0D53-4917-B310-2E29535932EC}.png",
     "assets/images/{1D41094C-F5A3-4FD4-8585-2A4E9653086E}.png",
-    "黑马python进阶/第一章 01.封装简介.md",
+    "黑马python进阶/第一章 01.封装,继承与多态简介.md",
     "templates/daily-note.md",
     "daily",
     "templates",
