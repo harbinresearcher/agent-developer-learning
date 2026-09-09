@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "斯坦福CS144计网/2. TCP IP四层模型.md",
+                "file": "斯坦福CS144计网/3.IP服务模型.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2. TCP IP四层模型"
+              "title": "3.IP服务模型"
             }
           }
         ]
@@ -198,10 +198,12 @@
   },
   "active": "92b5afb6d6272ac9",
   "lastOpenFiles": [
+    "斯坦福CS144计网/2. TCP IP四层模型.md",
+    "斯坦福CS144计网/3.IP服务模型.md",
+    "assets/images/{40C29610-81FA-4A21-B122-618700794C6B}.png",
     "assets/images/{19BCBC16-E42F-4C01-9E21-EDFAC72F9FAE}.png",
     "assets/images/{3159D3B6-89ED-458A-9B1A-08304DCB37EB}.png",
     "斯坦福CS144计网/1.应用程序的一天.md",
-    "斯坦福CS144计网/2. TCP IP四层模型.md",
     "assets/images/{717C4543-EEED-455E-B10C-426DFF418299}.png",
     "黑马python进阶/第一章 04.魔法方法.md",
     "斯坦福CS144计网",
@@ -216,8 +218,6 @@
     "黑马python进阶/第一章 01.封装,继承与多态简介.md",
     "assets/images/{4A0448B0-46AC-465B-AE27-84B5AE1C7F2F}.png",
     "assets/images/{1AEC2340-AC45-4E1D-8F33-0FD66680F2B9}.png",
-    "assets/images/{E1A69847-0D53-4917-B310-2E29535932EC}.png",
-    "assets/images/{1D41094C-F5A3-4FD4-8585-2A4E9653086E}.png",
     "templates/daily-note.md",
     "daily",
     "templates",
