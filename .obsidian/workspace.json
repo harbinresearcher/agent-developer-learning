@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "斯坦福CS144计网/3.IP服务模型.md",
+                "file": "斯坦福CS144计网/4.数据包的一天.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "3.IP服务模型"
+              "title": "4.数据包的一天"
             }
           }
         ]
@@ -198,13 +198,15 @@
   },
   "active": "92b5afb6d6272ac9",
   "lastOpenFiles": [
+    "斯坦福CS144计网/3.IP服务模型.md",
+    "斯坦福CS144计网/4.数据包的一天.md",
+    "assets/images/{FA286A15-9C1B-4642-9128-E57365F2C004}.png",
     "assets/images/{D4B8559B-9153-4481-B4EC-28D03E295BCF}.png",
     "assets/images/{5CB4ADFD-6369-460C-8B6D-1C2090681731}.png",
     "assets/images/{57D9E673-AD98-4AC3-A20B-D48B5649353C}.png",
     "assets/images/{C5753D4C-8894-45A3-8472-7A07E9DFC7D1}.png",
     "assets/images/{596F1285-A247-4231-9512-BE3745854AAF}.png",
     "斯坦福CS144计网/2. TCP IP四层模型.md",
-    "斯坦福CS144计网/3.IP服务模型.md",
     "assets/images/{40C29610-81FA-4A21-B122-618700794C6B}.png",
     "assets/images/{19BCBC16-E42F-4C01-9E21-EDFAC72F9FAE}.png",
     "assets/images/{3159D3B6-89ED-458A-9B1A-08304DCB37EB}.png",
@@ -214,9 +216,7 @@
     "斯坦福CS144计网",
     "CS61A UC berkeley/1.命名,赋值,与自定义函数.md",
     "CS61A UC berkeley",
-    "assets/images/{55DBCA0E-8FCA-410D-8942-396FFBC160DE}.png",
     "黑马python进阶/第一章 03.类内和类外访问函数.md",
-    "assets/images/{3D4D5BA7-D236-486C-A6FD-A4E91DE86F71}.png",
     "黑马python进阶/第一章 02.创建类的对象.md",
     "黑马python进阶/第一章 01.封装,继承与多态简介.md",
     "templates/daily-note.md",
