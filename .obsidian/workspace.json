@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "黑马python进阶/未命名.md",
+                "file": "黑马python进阶/第一章 01.面向对象大纲.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "未命名"
+              "title": "第一章 01.面向对象大纲"
             }
           }
         ]
@@ -198,7 +198,7 @@
   },
   "active": "92b5afb6d6272ac9",
   "lastOpenFiles": [
-    "黑马python进阶/未命名.md",
+    "黑马python进阶/第一章 01.面向对象大纲.md",
     "templates/daily-note.md",
     "daily",
     "templates",
