@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "黑马python进阶/第一章 01.面向对象简介.md",
+                "file": "黑马python进阶/第一章 01.封装简介.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "第一章 01.面向对象简介"
+              "title": "第一章 01.封装简介"
             }
           }
         ]
@@ -80,7 +80,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "d6b291aebef8cdc5",
@@ -198,8 +199,9 @@
   },
   "active": "92b5afb6d6272ac9",
   "lastOpenFiles": [
+    "assets/images/{E1A69847-0D53-4917-B310-2E29535932EC}.png",
     "assets/images/{1D41094C-F5A3-4FD4-8585-2A4E9653086E}.png",
-    "黑马python进阶/第一章 01.面向对象简介.md",
+    "黑马python进阶/第一章 01.封装简介.md",
     "templates/daily-note.md",
     "daily",
     "templates",
@@ -212,7 +214,6 @@
     "assets/images/{E66E5B31-697F-47B6-96E5-0DA00B6B489D}.png",
     "assets/images/{E3E67840-D73A-46C0-B01A-D2086F9DC5D1}.png",
     "assets/images/{D7E388BE-02F5-4339-8DDF-8B0F989358CF}.png",
-    "assets/images/{CD0CADED-31A7-44B4-986A-BB7169FFAD26}.png",
     "assets/images",
     "assets",
     "计算机网络(逊哥)/3.物理层---通信基础.md",
