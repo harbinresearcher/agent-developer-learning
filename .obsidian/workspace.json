@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "8056461e30151364",
+        "id": "99f3aa190e3ecd07",
         "type": "tabs",
         "children": [
           {
-            "id": "8601254bf634e471",
+            "id": "92b5afb6d6272ac9",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "计算机网络(逊哥)/3.物理层---通信基础.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "3.物理层---通信基础"
+              "title": "新标签页"
             }
           }
         ]
@@ -96,7 +92,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2.恶搞之家一季一集.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,7 +101,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "2.恶搞之家一季一集 的反向链接列表"
+              "title": "反向链接"
             }
           },
           {
@@ -115,12 +110,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2.恶搞之家一季一集.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "2.恶搞之家一季一集 的出链列表"
+              "title": "出链"
             }
           },
           {
@@ -167,11 +161,12 @@
               "title": "2.恶搞之家一季一集 的大纲"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 300,
+    "width": 320.5,
     "collapsed": true
   },
   "left-ribbon": {
@@ -186,20 +181,23 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "befa6c0328770114",
+  "active": "92b5afb6d6272ac9",
   "lastOpenFiles": [
-    "黑马python进阶",
-    "{6D7EEBC6-95B7-482C-8B8B-90BE00ED053E}.png",
-    "{349980BE-F81A-4B10-8AC1-17C404BC9478}.png",
-    "{7291B732-8E88-446F-8A4D-0EA562FA4E8F}.png",
-    "{6405C7AE-8DFC-4713-BBD2-0106903E6292}.png",
-    "{CD0CADED-31A7-44B4-986A-BB7169FFAD26}.png",
-    "{13AA7290-4B01-4677-9664-154994AAD741}.png",
-    "{65237EA6-C246-43B3-918C-CEB0FA327681} 1.png",
-    "{65237EA6-C246-43B3-918C-CEB0FA327681}.png",
-    "{8D0A4A81-D8A5-4F3A-A20E-71D433929304}.png",
-    "{F20C12AF-9A35-43CD-9AD0-01093AF43460}.png",
+    "assets/images/mmexport1788592176990 1.jpg",
+    "assets/images/{FF96594E-4A4A-421F-82FA-4088CECE73C9}.png",
+    "assets/images/{FB4D96C9-B5D2-41C4-BE0B-B0465EEA37BC}.png",
+    "assets/images/{F4EBBC18-47DA-4ED3-B5A3-665421753BE9}.png",
+    "assets/images/{F20C12AF-9A35-43CD-9AD0-01093AF43460}.png",
+    "assets/images/{EAB2A712-8265-42B8-90D6-0A2FEE8728F7}.png",
+    "assets/images/{E66E5B31-697F-47B6-96E5-0DA00B6B489D}.png",
+    "assets/images/{E3E67840-D73A-46C0-B01A-D2086F9DC5D1}.png",
+    "assets/images/{D7E388BE-02F5-4339-8DDF-8B0F989358CF}.png",
+    "assets/images/{CD0CADED-31A7-44B4-986A-BB7169FFAD26}.png",
+    "assets/images/{CA36A1B7-A8CC-4E93-9122-E2276BEF32F0}.png",
+    "assets/images",
+    "assets",
     "计算机网络(逊哥)/3.物理层---通信基础.md",
+    "黑马python进阶",
     "计算机网络(逊哥)/2.网络体系结构(物理层)---传输介质_编码.md",
     "计算机网络(逊哥)/1.计算机网络概述.md",
     "MIT6.006/2.3 时间复杂度.md",
