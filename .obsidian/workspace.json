@@ -11,10 +11,14 @@
             "id": "92b5afb6d6272ac9",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "黑马python进阶/未命名.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "未命名"
             }
           }
         ]
@@ -192,8 +196,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "d83b178a1b7e6b91",
+  "active": "92b5afb6d6272ac9",
   "lastOpenFiles": [
+    "黑马python进阶/未命名.md",
     "templates/daily-note.md",
     "daily",
     "templates",
