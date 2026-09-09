@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "黑马python进阶/第一章 01.封装,继承与多态简介.md",
+                "file": "黑马python进阶/第一章 02.定义类格式.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "第一章 01.封装,继承与多态简介"
+              "title": "第一章 02.定义类格式"
             }
           }
         ]
@@ -80,8 +80,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "d6b291aebef8cdc5",
@@ -199,11 +198,12 @@
   },
   "active": "92b5afb6d6272ac9",
   "lastOpenFiles": [
+    "黑马python进阶/第一章 01.封装,继承与多态简介.md",
+    "黑马python进阶/第一章 02.定义类格式.md",
     "assets/images/{4A0448B0-46AC-465B-AE27-84B5AE1C7F2F}.png",
     "assets/images/{1AEC2340-AC45-4E1D-8F33-0FD66680F2B9}.png",
     "assets/images/{E1A69847-0D53-4917-B310-2E29535932EC}.png",
     "assets/images/{1D41094C-F5A3-4FD4-8585-2A4E9653086E}.png",
-    "黑马python进阶/第一章 01.封装,继承与多态简介.md",
     "templates/daily-note.md",
     "daily",
     "templates",
@@ -213,7 +213,6 @@
     "assets/images/{F4EBBC18-47DA-4ED3-B5A3-665421753BE9}.png",
     "assets/images/{F20C12AF-9A35-43CD-9AD0-01093AF43460}.png",
     "assets/images/{EAB2A712-8265-42B8-90D6-0A2FEE8728F7}.png",
-    "assets/images/{E66E5B31-697F-47B6-96E5-0DA00B6B489D}.png",
     "assets/images",
     "assets",
     "计算机网络(逊哥)/3.物理层---通信基础.md",
