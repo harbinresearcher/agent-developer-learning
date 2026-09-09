@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "黑马python进阶/第一章 03.self关键字.md",
+                "file": "黑马python进阶/第一章 03.类内和类外访问函数.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "第一章 03.self关键字"
+              "title": "第一章 03.类内和类外访问函数"
             }
           }
         ]
@@ -196,10 +196,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "befa6c0328770114",
+  "active": "92b5afb6d6272ac9",
   "lastOpenFiles": [
     "黑马python进阶/第一章 02.创建类的对象.md",
-    "黑马python进阶/第一章 03.self关键字.md",
+    "黑马python进阶/第一章 03.类内和类外访问函数.md",
     "assets/images/{7DE3EFD1-A071-4537-8FA0-8D08569CE2D1}.png",
     "黑马python进阶/第一章 01.封装,继承与多态简介.md",
     "assets/images/{4A0448B0-46AC-465B-AE27-84B5AE1C7F2F}.png",
