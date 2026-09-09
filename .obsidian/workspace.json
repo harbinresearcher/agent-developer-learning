@@ -160,9 +160,19 @@
               "icon": "lucide-list",
               "title": "2.恶搞之家一季一集 的大纲"
             }
+          },
+          {
+            "id": "d83b178a1b7e6b91",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "review-queue-list-view"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -171,6 +181,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-spaced-repetition:复习卡片": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
@@ -181,7 +192,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "befa6c0328770114",
+  "active": "d83b178a1b7e6b91",
   "lastOpenFiles": [
     "templates/daily-note.md",
     "daily",
