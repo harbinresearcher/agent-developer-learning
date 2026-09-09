@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "计算机网络/3.物理层---通信基础.md",
+                "file": "计算机网络(逊哥)/3.物理层---通信基础.md",
                 "mode": "source",
                 "source": false
               },
@@ -80,8 +80,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "d6b291aebef8cdc5",
@@ -187,8 +186,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "8601254bf634e471",
+  "active": "befa6c0328770114",
   "lastOpenFiles": [
+    "未命名 1",
     "{6D7EEBC6-95B7-482C-8B8B-90BE00ED053E}.png",
     "{349980BE-F81A-4B10-8AC1-17C404BC9478}.png",
     "{7291B732-8E88-446F-8A4D-0EA562FA4E8F}.png",
@@ -199,13 +199,12 @@
     "{65237EA6-C246-43B3-918C-CEB0FA327681}.png",
     "{8D0A4A81-D8A5-4F3A-A20E-71D433929304}.png",
     "{F20C12AF-9A35-43CD-9AD0-01093AF43460}.png",
-    "计算机网络/3.物理层---通信基础.md",
-    "{29C20FB9-0F3C-49E9-8F7B-6A4D49488A5D}.png",
-    "计算机网络/2.网络体系结构(物理层)---传输介质_编码.md",
-    "计算机网络/1.计算机网络概述.md",
+    "计算机网络(逊哥)/3.物理层---通信基础.md",
+    "计算机网络(逊哥)/2.网络体系结构(物理层)---传输介质_编码.md",
+    "计算机网络(逊哥)/1.计算机网络概述.md",
     "MIT6.006/2.3 时间复杂度.md",
     "MIT6.006/2.5 小结.md",
-    "计算机网络",
+    "计算机网络(逊哥)",
     "MIT6.006/2.4 空间复杂度.md",
     "未命名.md",
     "MIT6.006/2.2 迭代与递归.md",
