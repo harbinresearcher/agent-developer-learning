@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "黑马python进阶/第一章 02..md",
+                "file": "黑马python进阶/第一章 03.self关键字.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "第一章 02."
+              "title": "第一章 03.self关键字"
             }
           }
         ]
@@ -196,10 +196,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "92b5afb6d6272ac9",
+  "active": "befa6c0328770114",
   "lastOpenFiles": [
+    "黑马python进阶/第一章 02.创建类的对象.md",
+    "黑马python进阶/第一章 03.self关键字.md",
+    "assets/images/{7DE3EFD1-A071-4537-8FA0-8D08569CE2D1}.png",
     "黑马python进阶/第一章 01.封装,继承与多态简介.md",
-    "黑马python进阶/第一章 02..md",
     "assets/images/{4A0448B0-46AC-465B-AE27-84B5AE1C7F2F}.png",
     "assets/images/{1AEC2340-AC45-4E1D-8F33-0FD66680F2B9}.png",
     "assets/images/{E1A69847-0D53-4917-B310-2E29535932EC}.png",
@@ -212,37 +214,35 @@
     "assets/images/{FB4D96C9-B5D2-41C4-BE0B-B0465EEA37BC}.png",
     "assets/images/{F4EBBC18-47DA-4ED3-B5A3-665421753BE9}.png",
     "assets/images/{F20C12AF-9A35-43CD-9AD0-01093AF43460}.png",
-    "assets/images/{EAB2A712-8265-42B8-90D6-0A2FEE8728F7}.png",
     "assets/images",
     "assets",
     "计算机网络(逊哥)/3.物理层---通信基础.md",
     "黑马python进阶",
     "计算机网络(逊哥)/2.网络体系结构(物理层)---传输介质_编码.md",
     "计算机网络(逊哥)/1.计算机网络概述.md",
-    "MIT6.006/2.3 时间复杂度.md",
-    "MIT6.006/2.5 小结.md",
+    "算法/2.3 时间复杂度.md",
+    "算法/2.5 小结.md",
     "计算机网络(逊哥)",
-    "MIT6.006/2.4 空间复杂度.md",
+    "算法/2.4 空间复杂度.md",
     "未命名.md",
-    "MIT6.006/2.2 迭代与递归.md",
-    "MIT6.006/算法题题库.md",
-    "MIT6.006/2.1 算法效率评估.md",
-    "MIT6.006/1.3 小结.md",
-    "MIT6.006/1.2 算法是什么.md",
-    "MIT6.006/1.1 算法无处不在.md",
-    "MIT6.006/前言.md",
+    "算法/2.2 迭代与递归.md",
+    "算法/算法题题库.md",
+    "算法/2.1 算法效率评估.md",
+    "算法/1.3 小结.md",
+    "算法/1.2 算法是什么.md",
+    "算法/1.1 算法无处不在.md",
+    "算法/前言.md",
     "MIT6.006/算法.md",
     "2026-09-05.md",
     "未命名.canvas",
     "这是一个电脑端的测试.md",
     "未命名/2.恶搞之家一季一集.md",
     "未命名/1. How to make big decisions in challenging circumstances.md",
-    "MIT6.006",
+    "算法",
     "未命名",
     "1. How to make big decisions in challenging circumstances.md",
     "2.恶搞之家一季一集.md",
     "tourist plan.md",
-    "手机测试.md",
     "新建 文本文档.txt"
   ]
 }
