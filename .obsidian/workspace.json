@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CS61A UC berkeley/1.命名,赋值,与自定义函数.md",
+                "file": "黑马python进阶/第一章 04.魔法方法.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1.命名,赋值,与自定义函数"
+              "title": "第一章 04.魔法方法"
             }
           }
         ]
@@ -80,8 +80,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "d6b291aebef8cdc5",
@@ -199,8 +198,8 @@
   },
   "active": "92b5afb6d6272ac9",
   "lastOpenFiles": [
-    "黑马python进阶/第一章 04.魔法方法.md",
     "CS61A UC berkeley/1.命名,赋值,与自定义函数.md",
+    "黑马python进阶/第一章 04.魔法方法.md",
     "CS61A UC berkeley",
     "assets/images/{55DBCA0E-8FCA-410D-8942-396FFBC160DE}.png",
     "黑马python进阶/第一章 03.类内和类外访问函数.md",
