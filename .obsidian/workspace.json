@@ -11,14 +11,10 @@
             "id": "4b1a963f796bceb5",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "agent开发/agent核心架构逻辑.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "agent核心架构逻辑"
+              "title": "新标签页"
             }
           }
         ]
@@ -196,7 +192,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "4b1a963f796bceb5",
+  "active": "befa6c0328770114",
   "lastOpenFiles": [
     "agent开发/gradio快速入门.md",
     "agent开发/agent核心架构逻辑.md",
