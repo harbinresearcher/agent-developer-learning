@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "agent开发/为什么需要agent.md",
+                "file": "agent开发/agent核心架构逻辑.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "为什么需要agent"
+              "title": "agent核心架构逻辑"
             }
           }
         ]
@@ -199,7 +199,7 @@
   "active": "4b1a963f796bceb5",
   "lastOpenFiles": [
     "agent开发/gradio快速入门.md",
-    "agent开发/为什么需要agent.md",
+    "agent开发/agent核心架构逻辑.md",
     "assets/images/{AA2FD0A9-930F-4DCD-A3CD-0703510C0962}.png",
     "assets/images/{45EE6840-1BA2-4D4D-B9B9-ABBEC9318440}.png",
     "agent开发/大模型的应用场景.md",
