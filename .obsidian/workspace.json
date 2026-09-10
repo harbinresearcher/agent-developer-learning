@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "斯坦福CS144计网/5.分组交换原理.md",
+                "file": "斯坦福CS144计网/6.分层原理.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "5.分组交换原理"
+              "title": "6.分层原理"
             }
           }
         ]
@@ -198,10 +198,11 @@
   },
   "active": "4b1a963f796bceb5",
   "lastOpenFiles": [
+    "斯坦福CS144计网/5.分组交换原理.md",
+    "斯坦福CS144计网/6.分层原理.md",
     "assets/images/{3F1B6428-3E38-4C4A-9932-95CB07ACB5CD}.png",
     "assets/images/{B1BDF8F1-D90D-428D-81D6-E136E4B254F2}.png",
     "斯坦福CS144计网/4.数据包的一天.md",
-    "斯坦福CS144计网/5.分组交换原理.md",
     "assets/images/{1D390D03-61A3-4BC8-99F3-E6B177E8F247}.png",
     "assets/images/{BD8D5D54-4420-4F98-A664-84F6A555F8CA}.png",
     "python数据分析/5.VMware虚拟组件.md",
@@ -213,7 +214,6 @@
     "python数据分析/3.Linux操作系统简介.md",
     "assets/images/{1D8F3C7D-9281-4A45-82A6-A902C80A0819}.png",
     "assets/images/{C0CB97E1-26AB-451A-9922-46A8241BFB3E}.png",
-    "assets/images/{772E033F-50F2-43A4-AD80-8B5AA1BD24E7}.png",
     "python数据分析/2.操作系统简介.md",
     "python数据分析/1.数据处理和统计分析大纲.md",
     "python数据分析",
