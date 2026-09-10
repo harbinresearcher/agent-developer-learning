@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "黑马langchain+langgraph/认识人工智能.md",
+                "file": "黑马langchain+langgraph/神经网络的原理.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "认识人工智能"
+              "title": "神经网络的原理"
             }
           }
         ]
@@ -199,8 +199,10 @@
   },
   "active": "4b1a963f796bceb5",
   "lastOpenFiles": [
+    "assets/images/{E3BB3051-2CFC-4E74-8AA5-24CB75A6F5B0}.png",
+    "assets/images/{33441D74-708C-4ACD-9E7D-3FB8BFAF0FCA}.png",
     "agent开发/agent核心架构逻辑.md",
-    "黑马langchain+langgraph/认识人工智能.md",
+    "黑马langchain+langgraph/神经网络的原理.md",
     "黑马langchain+langgraph",
     "agent开发/gradio快速入门.md",
     "assets/images/{AA2FD0A9-930F-4DCD-A3CD-0703510C0962}.png",
@@ -222,7 +224,6 @@
     "assets/images/{F49F3C49-4376-4A9D-B10C-E4EE273E4D82}.png",
     "assets/images/{ECE5B263-9893-4EE7-BB25-F4A26CBC2AB2}.png",
     "python数据分析/4.Linux.如何组建局域网.md",
-    "assets/images/{153BDD8D-55BB-430B-BCAF-1E2EC4301895}.png",
     "python数据分析/3.Linux操作系统简介.md",
     "python数据分析/2.操作系统简介.md",
     "python数据分析/1.数据处理和统计分析大纲.md",
@@ -244,7 +245,6 @@
     "assets",
     "黑马python进阶",
     "计算机网络(逊哥)/1.计算机网络概述.md",
-    "hello算法/2.3 时间复杂度.md",
     "未命名.canvas"
   ]
 }
