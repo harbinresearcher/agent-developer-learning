@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "黑马langchain+langgraph/编程调用大模型.md",
+                "file": "黑马langchain+langgraph/认识Langchain.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "编程调用大模型"
+              "title": "认识Langchain"
             }
           }
         ]
@@ -199,8 +199,9 @@
   },
   "active": "4b1a963f796bceb5",
   "lastOpenFiles": [
+    "assets/images/{F937FE14-9AB5-4782-9E4F-48224382D87A}.png",
     "黑马langchain+langgraph/大模型接口规范.md",
-    "黑马langchain+langgraph/编程调用大模型.md",
+    "黑马langchain+langgraph/认识Langchain.md",
     "assets/images/{F31A4A36-F86A-40EC-933D-3752B29F7B1E}.png",
     "assets/images/{A1A2A6E1-1FDF-409B-87DE-CE560849A544}.png",
     "黑马langchain+langgraph/大模型应用.md",
@@ -239,7 +240,6 @@
     "CS61A UC berkeley/1.命名,赋值,与自定义函数.md",
     "CS61A UC berkeley",
     "黑马python进阶/第一章 03.类内和类外访问函数.md",
-    "黑马python进阶/第一章 02.创建类的对象.md",
     "daily",
     "templates",
     "assets/images",
