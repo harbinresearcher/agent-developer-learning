@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "python数据分析/3.Linux操作系统简介.md",
+                "file": "python数据分析/Linux.如何组建局域网.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "3.Linux操作系统简介"
+              "title": "Linux.如何组建局域网"
             }
           }
         ]
@@ -196,9 +196,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "d83b178a1b7e6b91",
+  "active": "4b1a963f796bceb5",
   "lastOpenFiles": [
     "python数据分析/3.Linux操作系统简介.md",
+    "python数据分析/Linux.如何组建局域网.md",
     "assets/images/{1D8F3C7D-9281-4A45-82A6-A902C80A0819}.png",
     "assets/images/{C0CB97E1-26AB-451A-9922-46A8241BFB3E}.png",
     "assets/images/{772E033F-50F2-43A4-AD80-8B5AA1BD24E7}.png",
