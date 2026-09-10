@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "python数据分析/5.VMware虚拟组件.md",
+                "file": "斯坦福CS144计网/4.数据包的一天.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "5.VMware虚拟组件"
+              "title": "4.数据包的一天"
             }
           }
         ]
@@ -80,7 +80,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "d6b291aebef8cdc5",
@@ -198,11 +199,13 @@
   },
   "active": "4b1a963f796bceb5",
   "lastOpenFiles": [
+    "assets/images/{1D390D03-61A3-4BC8-99F3-E6B177E8F247}.png",
+    "assets/images/{BD8D5D54-4420-4F98-A664-84F6A555F8CA}.png",
+    "python数据分析/5.VMware虚拟组件.md",
     "assets/images/{67F4DAA3-6153-446E-9BF1-147C1C699A6B}.png",
     "assets/images/{F49F3C49-4376-4A9D-B10C-E4EE273E4D82}.png",
     "assets/images/{ECE5B263-9893-4EE7-BB25-F4A26CBC2AB2}.png",
     "python数据分析/4.Linux.如何组建局域网.md",
-    "python数据分析/5.VMware虚拟组件.md",
     "assets/images/{153BDD8D-55BB-430B-BCAF-1E2EC4301895}.png",
     "python数据分析/3.Linux操作系统简介.md",
     "assets/images/{1D8F3C7D-9281-4A45-82A6-A902C80A0819}.png",
@@ -215,8 +218,6 @@
     "斯坦福CS144计网/4.数据包的一天.md",
     "斯坦福CS144计网/3.IP服务模型.md",
     "assets/images/{FA286A15-9C1B-4642-9128-E57365F2C004}.png",
-    "assets/images/{D4B8559B-9153-4481-B4EC-28D03E295BCF}.png",
-    "assets/images/{5CB4ADFD-6369-460C-8B6D-1C2090681731}.png",
     "斯坦福CS144计网/2. TCP IP四层模型.md",
     "斯坦福CS144计网/1.应用程序的一天.md",
     "黑马python进阶/第一章 04.魔法方法.md",
