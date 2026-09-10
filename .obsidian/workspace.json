@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "黑马langchain+langgraph/神经网络的原理.md",
+                "file": "黑马langchain+langgraph/大语言模型.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "神经网络的原理"
+              "title": "大语言模型"
             }
           }
         ]
@@ -199,12 +199,15 @@
   },
   "active": "4b1a963f796bceb5",
   "lastOpenFiles": [
+    "assets/images/{83F94A02-9C35-414D-94F5-D95F7FEF355D}.png",
+    "黑马langchain+langgraph/神经网络的原理.md",
+    "黑马langchain+langgraph/大语言模型.md",
+    "assets/images/{780BA1E7-3E01-4954-913D-32B2E492BD27}.png",
     "assets/images/{3431CA16-0DA4-441E-B138-50AC1876F8A6}.png",
     "assets/images/{CAC0C11B-F901-441F-BEDB-F8025938E0E0}.png",
     "assets/images/{E3BB3051-2CFC-4E74-8AA5-24CB75A6F5B0}.png",
     "assets/images/{33441D74-708C-4ACD-9E7D-3FB8BFAF0FCA}.png",
     "agent开发/agent核心架构逻辑.md",
-    "黑马langchain+langgraph/神经网络的原理.md",
     "黑马langchain+langgraph",
     "agent开发/gradio快速入门.md",
     "assets/images/{AA2FD0A9-930F-4DCD-A3CD-0703510C0962}.png",
@@ -220,9 +223,7 @@
     "assets/images/{B1BDF8F1-D90D-428D-81D6-E136E4B254F2}.png",
     "斯坦福CS144计网/4.数据包的一天.md",
     "assets/images/{1D390D03-61A3-4BC8-99F3-E6B177E8F247}.png",
-    "assets/images/{BD8D5D54-4420-4F98-A664-84F6A555F8CA}.png",
     "python数据分析/5.VMware虚拟组件.md",
-    "assets/images/{67F4DAA3-6153-446E-9BF1-147C1C699A6B}.png",
     "python数据分析/4.Linux.如何组建局域网.md",
     "python数据分析/3.Linux操作系统简介.md",
     "python数据分析/2.操作系统简介.md",
@@ -244,7 +245,6 @@
     "assets/images",
     "assets",
     "黑马python进阶",
-    "计算机网络(逊哥)/1.计算机网络概述.md",
     "未命名.canvas"
   ]
 }
