@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "python数据分析/Linux.如何组建局域网.md",
+                "file": "python数据分析/5.VMware虚拟组件.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Linux.如何组建局域网"
+              "title": "5.VMware虚拟组件"
             }
           }
         ]
@@ -198,8 +198,11 @@
   },
   "active": "4b1a963f796bceb5",
   "lastOpenFiles": [
+    "assets/images/{ECE5B263-9893-4EE7-BB25-F4A26CBC2AB2}.png",
+    "python数据分析/4.Linux.如何组建局域网.md",
+    "python数据分析/5.VMware虚拟组件.md",
+    "assets/images/{153BDD8D-55BB-430B-BCAF-1E2EC4301895}.png",
     "python数据分析/3.Linux操作系统简介.md",
-    "python数据分析/Linux.如何组建局域网.md",
     "assets/images/{1D8F3C7D-9281-4A45-82A6-A902C80A0819}.png",
     "assets/images/{C0CB97E1-26AB-451A-9922-46A8241BFB3E}.png",
     "assets/images/{772E033F-50F2-43A4-AD80-8B5AA1BD24E7}.png",
@@ -214,7 +217,6 @@
     "assets/images/{5CB4ADFD-6369-460C-8B6D-1C2090681731}.png",
     "assets/images/{57D9E673-AD98-4AC3-A20B-D48B5649353C}.png",
     "assets/images/{C5753D4C-8894-45A3-8472-7A07E9DFC7D1}.png",
-    "assets/images/{596F1285-A247-4231-9512-BE3745854AAF}.png",
     "斯坦福CS144计网/2. TCP IP四层模型.md",
     "斯坦福CS144计网/1.应用程序的一天.md",
     "黑马python进阶/第一章 04.魔法方法.md",
@@ -241,8 +243,6 @@
     "算法/2.2 迭代与递归.md",
     "算法/算法题题库.md",
     "算法/2.1 算法效率评估.md",
-    "算法/1.3 小结.md",
-    "算法/1.2 算法是什么.md",
     "未命名.canvas",
     "算法"
   ]
