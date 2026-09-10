@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "黑马langchain+langgraph/大模型接口规范.md",
+                "file": "黑马langchain+langgraph/编程调用大模型.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "大模型接口规范"
+              "title": "编程调用大模型"
             }
           }
         ]
@@ -199,10 +199,11 @@
   },
   "active": "4b1a963f796bceb5",
   "lastOpenFiles": [
+    "黑马langchain+langgraph/大模型接口规范.md",
+    "黑马langchain+langgraph/编程调用大模型.md",
     "assets/images/{F31A4A36-F86A-40EC-933D-3752B29F7B1E}.png",
     "assets/images/{A1A2A6E1-1FDF-409B-87DE-CE560849A544}.png",
     "黑马langchain+langgraph/大模型应用.md",
-    "黑马langchain+langgraph/大模型接口规范.md",
     "assets/images/{BE2A6AE0-AF3D-4685-AD31-8BE9D32508A3}.png",
     "assets/images/{33C3A3A0-4337-496A-860E-1E2A3EFE42FD}.png",
     "assets/images/{3737590F-A525-4E61-B9DC-0047A45EBE13}.png",
@@ -212,7 +213,6 @@
     "assets/images/{6E8677BA-6CAC-4AA9-BC9E-4D3514B963F3}.png",
     "assets/images/{61BDCA23-2942-4091-9B4E-25B06185DD41}.png",
     "assets/images/{27C61570-CC9C-43FA-A5A6-10FDD8F473E6}.png",
-    "assets/images/{83F94A02-9C35-414D-94F5-D95F7FEF355D}.png",
     "黑马langchain+langgraph/神经网络的原理.md",
     "agent开发/agent核心架构逻辑.md",
     "黑马langchain+langgraph",
