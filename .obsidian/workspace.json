@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "agent开发/认识大模型.md",
+                "file": "agent开发/大模型的应用场景.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "认识大模型"
+              "title": "大模型的应用场景"
             }
           }
         ]
@@ -80,8 +80,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "d6b291aebef8cdc5",
@@ -199,8 +198,9 @@
   },
   "active": "4b1a963f796bceb5",
   "lastOpenFiles": [
-    "计算机网络(逊哥)/2.网络体系结构(物理层)---传输介质_编码.md",
     "agent开发/认识大模型.md",
+    "agent开发/大模型的应用场景.md",
+    "计算机网络(逊哥)/2.网络体系结构(物理层)---传输介质_编码.md",
     "agent开发",
     "计算机网络(逊哥)/3.物理层---通信基础.md",
     "斯坦福CS144计网/6.分层原理.md",
@@ -244,7 +244,6 @@
     "计算机网络(逊哥)",
     "hello算法/2.4 空间复杂度.md",
     "未命名.md",
-    "hello算法/2.2 迭代与递归.md",
     "未命名.canvas"
   ]
 }
