@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "黑马langchain+langgraph/大模型应用.md",
+                "file": "黑马langchain+langgraph/大模型服务.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "大模型应用"
+              "title": "大模型服务"
             }
           }
         ]
@@ -80,8 +80,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "d6b291aebef8cdc5",
@@ -199,10 +198,12 @@
   },
   "active": "4b1a963f796bceb5",
   "lastOpenFiles": [
+    "黑马langchain+langgraph/大模型应用.md",
+    "黑马langchain+langgraph/大模型服务.md",
+    "assets/images/{BE2A6AE0-AF3D-4685-AD31-8BE9D32508A3}.png",
     "assets/images/{33C3A3A0-4337-496A-860E-1E2A3EFE42FD}.png",
     "assets/images/{3737590F-A525-4E61-B9DC-0047A45EBE13}.png",
     "黑马langchain+langgraph/大语言模型.md",
-    "黑马langchain+langgraph/大模型应用.md",
     "assets/images/{E805BCC7-CBB6-48E2-ADF7-1DF963CF918D} 1.png",
     "assets/images/{E805BCC7-CBB6-48E2-ADF7-1DF963CF918D}.png",
     "assets/images/{6E8677BA-6CAC-4AA9-BC9E-4D3514B963F3}.png",
@@ -211,8 +212,6 @@
     "assets/images/{83F94A02-9C35-414D-94F5-D95F7FEF355D}.png",
     "黑马langchain+langgraph/神经网络的原理.md",
     "assets/images/{780BA1E7-3E01-4954-913D-32B2E492BD27}.png",
-    "assets/images/{3431CA16-0DA4-441E-B138-50AC1876F8A6}.png",
-    "assets/images/{CAC0C11B-F901-441F-BEDB-F8025938E0E0}.png",
     "agent开发/agent核心架构逻辑.md",
     "黑马langchain+langgraph",
     "agent开发/gradio快速入门.md",
