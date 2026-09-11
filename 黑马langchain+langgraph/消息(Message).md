@@ -1,2 +1,6 @@
 Basemessage:
 ![[{505568C8-C268-4AB5-91C9-5FF78DA34A19}.png]]
+
+
+message的第一个特点 简洁:
+![[{BFBEE975-4120-4973-AE8B-7D16FB659617}.png]]
