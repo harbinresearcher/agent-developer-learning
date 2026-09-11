@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "未命名/2.恶搞之家一季一集.md",
+                "file": "MIT6.006/1.1 算法无处不在.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2.恶搞之家一季一集"
+              "title": "1.1 算法无处不在"
             }
           }
         ],
@@ -185,10 +185,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "c587f8bc5272d360",
+  "active": "204c721482c8a11c",
   "lastOpenFiles": [
     "计算机网络/2.网络体系结构_物理层.md",
     "计算机网络/1.计算机网络概述.md",
+    "未命名/2.恶搞之家一季一集.md",
     "{F4EBBC18-47DA-4ED3-B5A3-665421753BE9}.png",
     "{EAB2A712-8265-42B8-90D6-0A2FEE8728F7}.png",
     "{D7E388BE-02F5-4339-8DDF-8B0F989358CF}.png",
@@ -223,7 +224,6 @@
     "计算机网络",
     "/计算机网络",
     "MIT6.006/前言.md",
-    "未命名/2.恶搞之家一季一集.md",
     "MIT6.006",
     "未命名/1. How to make big decisions in challenging circumstances.md",
     "tourist plan.md",
