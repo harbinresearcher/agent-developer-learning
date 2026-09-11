@@ -4,3 +4,7 @@ Basemessage:
 
 message的第一个特点 简洁:
 ![[{BFBEE975-4120-4973-AE8B-7D16FB659617}.png]]
+
+
+多模态消息:
+![[{F2D776F0-6C85-4A79-A8B9-8124D5F0223C}.png]]
