@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "斯坦福CS144计网/7.封装原理.md",
+                "file": "斯坦福CS144计网/8.内存,字节序与包格式.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "7.封装原理"
+              "title": "8.内存,字节序与包格式"
             }
           }
         ]
@@ -80,8 +80,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "d6b291aebef8cdc5",
@@ -199,9 +198,12 @@
   },
   "active": "4b1a963f796bceb5",
   "lastOpenFiles": [
+    "斯坦福CS144计网/7.封装原理.md",
+    "斯坦福CS144计网/8.内存,字节序与包格式.md",
+    "assets/images/{D5219A4D-65B3-4219-9F68-3BB98127354F}.png",
+    "assets/images/{D3A86EAB-78F4-4525-9D51-BF5F36F38321}.png",
     "assets/images/{C49CE499-652E-4C4E-9F2E-B2F7C1412372}.png",
     "斯坦福CS144计网/6.分层原理.md",
-    "斯坦福CS144计网/7.封装原理.md",
     "黑马langchain+langgraph/消息(Message).md",
     "README.md",
     "assets/images/{38AB71BA-4247-4168-8D72-637E5EDE5B5C}.png",
@@ -212,9 +214,6 @@
     "assets/images/{505568C8-C268-4AB5-91C9-5FF78DA34A19}.png",
     "黑马langchain+langgraph/调用模型.md",
     "assets/images/{9F1DB567-BBFF-4159-BFBF-9833400457F4}.png",
-    "assets/images/{9799C0DB-332B-4F81-B2D3-84E840B644C0}.png",
-    "assets/images/{EAF9F61D-C555-4333-8FF1-7CAD616A151B}.png",
-    "assets/images/{C150C7C7-6E7C-45E5-AFE7-B19A4D2E0230}.png",
     "黑马langchain+langgraph/初始化模型.md",
     "黑马langchain+langgraph/快速入门和Agent原理.md",
     "黑马langchain+langgraph/认识Langchain.md",
