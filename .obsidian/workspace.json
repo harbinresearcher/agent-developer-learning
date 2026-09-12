@@ -80,7 +80,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "d6b291aebef8cdc5",
@@ -198,6 +199,7 @@
   },
   "active": "4b1a963f796bceb5",
   "lastOpenFiles": [
+    "assets/images/{C49CE499-652E-4C4E-9F2E-B2F7C1412372}.png",
     "斯坦福CS144计网/6.分层原理.md",
     "斯坦福CS144计网/7.封装原理.md",
     "黑马langchain+langgraph/消息(Message).md",
@@ -236,7 +238,6 @@
     "python数据分析/2.操作系统简介.md",
     "python数据分析/1.数据处理和统计分析大纲.md",
     "python数据分析",
-    "斯坦福CS144计网/3.IP服务模型.md",
     "斯坦福CS144计网",
     "CS61A UC berkeley",
     "daily",
