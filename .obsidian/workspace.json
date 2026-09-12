@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "黑马langchain+langgraph/消息(Message).md",
+                "file": "斯坦福CS144计网/7.封装原理.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "消息(Message)"
+              "title": "7.封装原理"
             }
           }
         ]
@@ -196,9 +196,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "d83b178a1b7e6b91",
+  "active": "4b1a963f796bceb5",
   "lastOpenFiles": [
+    "斯坦福CS144计网/6.分层原理.md",
+    "斯坦福CS144计网/7.封装原理.md",
     "黑马langchain+langgraph/消息(Message).md",
+    "README.md",
     "assets/images/{38AB71BA-4247-4168-8D72-637E5EDE5B5C}.png",
     "assets/images/{D735CDF3-9D02-465E-973C-FB9E6D2DCFC4}.png",
     "assets/images/{7C7B22D3-644B-45C1-9683-FF345FB84058}.png",
@@ -225,7 +228,6 @@
     "计算机网络(逊哥)/2.网络体系结构(物理层)---传输介质_编码.md",
     "agent开发",
     "计算机网络(逊哥)/3.物理层---通信基础.md",
-    "斯坦福CS144计网/6.分层原理.md",
     "斯坦福CS144计网/5.分组交换原理.md",
     "斯坦福CS144计网/4.数据包的一天.md",
     "python数据分析/5.VMware虚拟组件.md",
@@ -235,7 +237,6 @@
     "python数据分析/1.数据处理和统计分析大纲.md",
     "python数据分析",
     "斯坦福CS144计网/3.IP服务模型.md",
-    "斯坦福CS144计网/2. TCP IP四层模型.md",
     "斯坦福CS144计网",
     "CS61A UC berkeley",
     "daily",
