@@ -4,8 +4,8 @@
   },
   "settings": {
     "general": {
-      "interfaceLanguage": "obsidian",
-      "userName": "",
+      "interfaceLanguage": "zh-cn",
+      "userName": "罗晨晨",
       "showGreeting": true,
       "hasOpenedHome": false,
       "pinnedDecks": [],
@@ -16,12 +16,12 @@
       },
       "enableAnimations": true,
       "themePreset": "glass",
-      "themeAccentOverride": "",
+      "themeAccentOverride": "#d3e830",
       "showLaunchNoticeModal": true,
       "enableReadingStyles": true,
       "prettifyCards": "accent",
-      "syncPrivileges": "off",
-      "syncPrivilegesChoiceVersion": 0
+      "syncPrivileges": "full",
+      "syncPrivilegesChoiceVersion": 1
     },
     "study": {
       "showInfoByDefault": false,
@@ -50,9 +50,9 @@
       "location": "modal",
       "modalButtonVisibility": "hover",
       "voiceChat": false,
-      "provider": "openai",
+      "provider": "deepseek",
       "openRouterTier": "free",
-      "model": "gpt-4.1-mini",
+      "model": "deepseek-chat",
       "endpointOverride": "",
       "apiKeys": {
         "openai": "",
@@ -180,15 +180,15 @@
       "layout": "masonry",
       "cardMode": "flip",
       "visibleFields": {
-        "title": true,
+        "title": false,
         "question": true,
         "options": false,
         "answer": true,
         "info": false,
-        "groups": true,
-        "edit": true
+        "groups": false,
+        "edit": false
       },
-      "displayLabels": true,
+      "displayLabels": false,
       "cardBgLight": "",
       "cardBgDark": "",
       "cardBorderLight": "",
@@ -362,7 +362,7 @@
       "deleteOrphanedImages": true,
       "cardAttachmentFolderPath": "Attachments/Cards/",
       "vaultSync": {
-        "enabled": false,
+        "enabled": true,
         "folderPath": "LearnKit/"
       },
       "backups": {
@@ -413,6 +413,31 @@
         "google-cloud": "",
         "custom": ""
       }
+    }
+  },
+  "browserPrefs": {
+    "density": "comfortable",
+    "cols": {
+      "comfortable": [
+        "id",
+        "type",
+        "stage",
+        "due",
+        "title",
+        "question",
+        "answer",
+        "info",
+        "location",
+        "groups"
+      ],
+      "compact": [
+        "type",
+        "title",
+        "question",
+        "answer",
+        "info",
+        "groups"
+      ]
     }
   }
 }
