@@ -22,23 +22,13 @@
             }
           },
           {
-            "id": "b3c343729585b3b1",
+            "id": "9a428082efe04f93",
             "type": "leaf",
             "state": {
-              "type": "learnkit-reviewer",
+              "type": "learnkit-home",
               "state": {},
-              "icon": "star",
-              "title": "闪卡"
-            }
-          },
-          {
-            "id": "512c533b18034715",
-            "type": "leaf",
-            "state": {
-              "type": "learnkit-reviewer",
-              "state": {},
-              "icon": "star",
-              "title": "闪卡"
+              "icon": "learnkit-brand",
+              "title": "LearnKit"
             }
           }
         ],
@@ -218,7 +208,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b3c343729585b3b1",
+  "active": "9a428082efe04f93",
   "lastOpenFiles": [
     "樊顺厚高等数学/函数的极限.md",
     "樊顺厚高等数学/反三角函数.md",
