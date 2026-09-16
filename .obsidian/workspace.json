@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "hello算法/3.3 数字编码.md",
+                "file": "hello算法/3.4 字符编码.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "3.3 数字编码"
+              "title": "3.4 字符编码"
             }
           }
         ]
@@ -198,8 +198,9 @@
   },
   "active": "4b1a963f796bceb5",
   "lastOpenFiles": [
-    "hello算法/3.2 基本的数据类型.md",
     "hello算法/3.3 数字编码.md",
+    "hello算法/3.4 字符编码.md",
+    "hello算法/3.2 基本的数据类型.md",
     "计算机网络(逊哥)/2.网络体系结构(物理层)---传输介质_编码.md",
     "计算机网络(逊哥)/1.计算机网络概述.md",
     "计算机网络(逊哥)/3.物理层---通信基础.md",
@@ -234,7 +235,6 @@
     "黑马langchain+langgraph/消息(Message).md",
     "黑马langchain+langgraph/调用模型.md",
     "黑马langchain+langgraph/初始化模型.md",
-    "黑马langchain+langgraph/快速入门和Agent原理.md",
     "黑马langchain+langgraph",
     "agent开发",
     "python数据分析",
