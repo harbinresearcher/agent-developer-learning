@@ -20,8 +20,19 @@
               "icon": "lucide-file",
               "title": "3.4 字符编码"
             }
+          },
+          {
+            "id": "ff9e89531f7cb942",
+            "type": "leaf",
+            "state": {
+              "type": "learnkit-home",
+              "state": {},
+              "icon": "learnkit-brand",
+              "title": "LearnKit"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -41,7 +52,7 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": true,
+                "autoReveal": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
@@ -185,7 +196,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "obsidian-spaced-repetition:复习卡片": false,
+      "learnkit:LearnKit": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
@@ -196,7 +207,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "4b1a963f796bceb5",
+  "active": "ff9e89531f7cb942",
   "lastOpenFiles": [
     "hello算法/3.3 数字编码.md",
     "hello算法/3.4 字符编码.md",
