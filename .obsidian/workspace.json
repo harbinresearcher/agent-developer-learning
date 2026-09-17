@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "6340d12d8fb27e74",
+        "id": "c3f2bc417396aa02",
         "type": "tabs",
         "children": [
           {
-            "id": "d136af97e84f4c49",
+            "id": "fb2658cb75a495e8",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "樊顺厚高等数学/无穷小与无穷大.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "无穷小与无穷大"
+              "title": "新标签页"
             }
           }
         ]
@@ -196,8 +192,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "d136af97e84f4c49",
+  "active": "befa6c0328770114",
   "lastOpenFiles": [
+    "计算机网络/湖大教书匠",
+    "计算机网络",
     "assets/images/{8380AFB0-B256-425F-BFF0-1AFA5294E431}.png",
     "assets/images/{D19BF48D-CDDC-4A6A-8091-E2F007F7438C}.png",
     "assets/images/{15AE6828-9188-4906-B85C-C31433CEEA89}.png",
@@ -213,9 +211,9 @@
     "hello算法/3.4 字符编码.md",
     "hello算法/3.3 数字编码.md",
     "hello算法/3.2 基本的数据类型.md",
-    "计算机网络(逊哥)/2.网络体系结构(物理层)---传输介质_编码.md",
-    "计算机网络(逊哥)/1.计算机网络概述.md",
-    "计算机网络(逊哥)/3.物理层---通信基础.md",
+    "计算机网络/计算机网络(逊哥)/2.网络体系结构(物理层)---传输介质_编码.md",
+    "计算机网络/计算机网络(逊哥)/1.计算机网络概述.md",
+    "计算机网络/计算机网络(逊哥)/3.物理层---通信基础.md",
     "hello算法/3.1 数据结构的分类.md",
     "hello算法/2.5 小结.md",
     "hello算法/前言.md",
@@ -228,22 +226,20 @@
     "assets/images/{B6901B32-246E-48D9-AA0C-6ADF4EF7AEC3}.png",
     "assets/images/{F4873DEA-ADEC-45DC-9579-5480D9AB0F1A}.png",
     "assets/images/{70D26C93-14CD-4791-A61F-8B1176218FF3}.png",
-    "assets/images/{E7351954-61D8-4089-8B76-19999E8293EB}.png",
     "樊顺厚高等数学/数列极限.md",
     "README.md",
     "未命名.md",
     "樊顺厚高等数学",
     "templates/daily-note.md",
     "黑马python进阶/第一章 04.魔法方法.md",
-    "斯坦福CS144计网/8.内存,字节序与包格式.md",
-    "斯坦福CS144计网/7.封装原理.md",
-    "斯坦福CS144计网/6.分层原理.md",
+    "计算机网络/斯坦福CS144计网/8.内存,字节序与包格式.md",
+    "计算机网络/斯坦福CS144计网/7.封装原理.md",
+    "计算机网络/斯坦福CS144计网/6.分层原理.md",
     "黑马langchain+langgraph/消息(Message).md",
     "黑马langchain+langgraph/调用模型.md",
     "黑马langchain+langgraph",
     "agent开发",
     "python数据分析",
-    "斯坦福CS144计网",
     "未命名.canvas"
   ]
 }
