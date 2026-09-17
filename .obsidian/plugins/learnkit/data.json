@@ -52,7 +52,8 @@
       "voiceChat": false,
       "provider": "deepseek",
       "openRouterTier": "free",
-      "model": "deepseek-chat",
+      "model": "deepseek-flash",
+      "reasoningEffort": "high",
       "endpointOverride": "",
       "apiKeys": {
         "openai": "",
