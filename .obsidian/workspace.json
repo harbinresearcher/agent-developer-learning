@@ -11,10 +11,14 @@
             "id": "fb2658cb75a495e8",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "数据结构算法/北大陈斌/未命名.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "未命名"
             }
           }
         ]
@@ -36,7 +40,7 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical",
+                "sortOrder": "byCreatedTime",
                 "autoReveal": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -192,8 +196,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "befa6c0328770114",
+  "active": "fb2658cb75a495e8",
   "lastOpenFiles": [
+    "樊顺厚高等数学/无穷小与无穷大.md",
+    "数据结构算法/北大陈斌/未命名.md",
+    "数据结构算法/北大陈斌",
+    "数据结构算法",
+    "python高级",
     "深度学习",
     "机器学习",
     "Linux基础",
@@ -208,22 +217,17 @@
     "樊顺厚高等数学/函数的极限.md",
     "樊顺厚高等数学/反三角函数.md",
     "LearnKit/tests.db",
-    "LearnKit/coach.db",
-    "LearnKit/notes.db",
-    "LearnKit/flashcards.db",
-    "LearnKit",
-    "hello算法/3.4 字符编码.md",
-    "hello算法/3.3 数字编码.md",
-    "hello算法/3.2 基本的数据类型.md",
+    "数据结构算法/hello算法/3.4 字符编码.md",
+    "数据结构算法/hello算法/3.3 数字编码.md",
+    "数据结构算法/hello算法/3.2 基本的数据类型.md",
     "计算机网络/计算机网络(逊哥)/2.网络体系结构(物理层)---传输介质_编码.md",
     "计算机网络/计算机网络(逊哥)/1.计算机网络概述.md",
     "计算机网络/计算机网络(逊哥)/3.物理层---通信基础.md",
-    "hello算法/3.1 数据结构的分类.md",
-    "hello算法/2.5 小结.md",
-    "hello算法/前言.md",
-    "hello算法/算法题题库.md",
-    "hello算法/2.3 时间复杂度.md",
-    "樊顺厚高等数学/无穷小与无穷大.md",
+    "数据结构算法/hello算法/3.1 数据结构的分类.md",
+    "数据结构算法/hello算法/2.5 小结.md",
+    "数据结构算法/hello算法/前言.md",
+    "数据结构算法/hello算法/算法题题库.md",
+    "数据结构算法/hello算法/2.3 时间复杂度.md",
     "assets/images/{0A32C520-C8DD-4240-A9FD-3F30ADAB92A6}.png",
     "樊顺厚高等数学/记忆笔记(函数,数列极限).md",
     "assets/images/{0C19ED99-EA61-41A9-A8BF-16D3CC458473}.png",
@@ -234,7 +238,7 @@
     "README.md",
     "未命名.md",
     "templates/daily-note.md",
-    "黑马python进阶/第一章 04.魔法方法.md",
+    "python高级/黑马python进阶/第一章 04.魔法方法.md",
     "计算机网络/斯坦福CS144计网/8.内存,字节序与包格式.md",
     "计算机网络/斯坦福CS144计网/7.封装原理.md",
     "计算机网络/斯坦福CS144计网/6.分层原理.md",
