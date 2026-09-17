@@ -105,7 +105,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "d6b291aebef8cdc5",
@@ -223,6 +224,7 @@
   },
   "active": "d136af97e84f4c49",
   "lastOpenFiles": [
+    "assets/images/{B3B26B4A-677D-4E05-B810-ACB22432B2B1}.png",
     "樊顺厚高等数学/函数的极限.md",
     "樊顺厚高等数学/反三角函数.md",
     "LearnKit/tests.db",
