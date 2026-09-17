@@ -194,7 +194,9 @@
   },
   "active": "befa6c0328770114",
   "lastOpenFiles": [
-    "Linux",
+    "深度学习",
+    "机器学习",
+    "Linux基础",
     "操作系统",
     "计算机网络/湖大教书匠",
     "计算机网络",
@@ -231,7 +233,6 @@
     "樊顺厚高等数学/数列极限.md",
     "README.md",
     "未命名.md",
-    "樊顺厚高等数学",
     "templates/daily-note.md",
     "黑马python进阶/第一章 04.魔法方法.md",
     "计算机网络/斯坦福CS144计网/8.内存,字节序与包格式.md",
@@ -239,7 +240,6 @@
     "计算机网络/斯坦福CS144计网/6.分层原理.md",
     "黑马langchain+langgraph/消息(Message).md",
     "黑马langchain+langgraph/调用模型.md",
-    "黑马langchain+langgraph",
     "未命名.canvas"
   ]
 }
