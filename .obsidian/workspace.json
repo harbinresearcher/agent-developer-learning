@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "数据结构算法/北大陈斌/未命名.md",
+                "file": "数据结构算法/北大陈斌/1.图灵机.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "未命名"
+              "title": "1.图灵机"
             }
           }
         ]
@@ -198,8 +198,9 @@
   },
   "active": "fb2658cb75a495e8",
   "lastOpenFiles": [
+    "assets/images/{2E03241D-AB5C-44AC-B2E6-9C6752FBC148}.png",
     "樊顺厚高等数学/无穷小与无穷大.md",
-    "数据结构算法/北大陈斌/未命名.md",
+    "数据结构算法/北大陈斌/1.图灵机.md",
     "数据结构算法/北大陈斌",
     "数据结构算法",
     "python高级",
@@ -243,7 +244,6 @@
     "计算机网络/斯坦福CS144计网/7.封装原理.md",
     "计算机网络/斯坦福CS144计网/6.分层原理.md",
     "黑马langchain+langgraph/消息(Message).md",
-    "黑马langchain+langgraph/调用模型.md",
     "未命名.canvas"
   ]
 }
