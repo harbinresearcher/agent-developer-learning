@@ -194,6 +194,7 @@
   },
   "active": "befa6c0328770114",
   "lastOpenFiles": [
+    "Linux",
     "操作系统",
     "计算机网络/湖大教书匠",
     "计算机网络",
@@ -239,7 +240,6 @@
     "黑马langchain+langgraph/消息(Message).md",
     "黑马langchain+langgraph/调用模型.md",
     "黑马langchain+langgraph",
-    "agent开发",
     "未命名.canvas"
   ]
 }
