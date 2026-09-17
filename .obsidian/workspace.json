@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "数据结构算法/北大陈斌/3.变位词.md",
+                "file": "数据结构算法/北大陈斌/4.python数据类型的性能.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "3.变位词"
+              "title": "4.python数据类型的性能"
             }
           }
         ]
@@ -198,6 +198,10 @@
   },
   "active": "fb2658cb75a495e8",
   "lastOpenFiles": [
+    "assets/images/{59458A94-5E38-4ADD-9D4C-574BF2CDE8C4}.png",
+    "assets/images/{BCC361F5-A714-4E45-81E1-E2D91697DF6E}.png",
+    "数据结构算法/北大陈斌/3.变位词.md",
+    "数据结构算法/北大陈斌/4.python数据类型的性能.md",
     "assets/images/{82F6CF38-2607-4BB8-B3C3-2A9C2D6E3048}.png",
     "assets/images/{E6FF48F0-DCE0-48C2-A839-39D0390C1661}.png",
     "assets/images/{583C019C-7492-4783-9391-C0151EE0300B}.png",
@@ -207,10 +211,7 @@
     "assets/images/{4CD6BDCB-E13C-431B-84FF-66D2E7912F2B}.png",
     "assets/images/{507FDBBD-D3FC-4780-9C2E-8687A847B816}.png",
     "assets/images/{D94334A2-2E35-4A12-B7A2-E96A85F76448}.png",
-    "assets/images/{D09C9646-DC13-4EB8-94C8-3CE7E6AC0987}.png",
-    "assets/images/{E92DC788-7BEA-4C45-92ED-86AB597C18C9}.png",
     "数据结构算法/北大陈斌/2.大O表示法.md",
-    "数据结构算法/北大陈斌/3.变位词.md",
     "数据结构算法/北大陈斌/1.图灵机.md",
     "樊顺厚高等数学/无穷小与无穷大.md",
     "数据结构算法/北大陈斌",
@@ -243,7 +244,6 @@
     "templates/daily-note.md",
     "python高级/黑马python进阶/第一章 04.魔法方法.md",
     "计算机网络/斯坦福CS144计网/8.内存,字节序与包格式.md",
-    "计算机网络/斯坦福CS144计网/7.封装原理.md",
     "未命名.canvas"
   ]
 }
