@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "计算机网络/湖大教书匠/4.计算机网络的性能指标.md",
+                "file": "计算机网络/湖大教书匠/5.计算机网络体系结构.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "4.计算机网络的性能指标"
+              "title": "5.计算机网络体系结构"
             }
           }
         ]
@@ -198,20 +198,20 @@
   },
   "active": "fb2658cb75a495e8",
   "lastOpenFiles": [
+    "计算机网络/湖大教书匠/4.计算机网络的性能指标.md",
+    "计算机网络/湖大教书匠/5.计算机网络体系结构.md",
+    "assets/images/{0E2FC7F9-4625-452E-BF3D-C4A5F4B776EC}.png",
+    "assets/images/{B34E7020-A542-4D32-A393-65E13EC673C5}.png",
+    "assets/images/{3571EF63-46D4-444F-8288-863F7FA78E5B}.png",
+    "assets/images/{29F636FF-4395-4209-93B1-DDE0F68E4568}.png",
+    "assets/images/{498C2B78-BF3E-4A85-A261-336E91C1EA88}.png",
     "assets/images/{21767E71-BA6D-47AF-8E05-3B9EF0E71FB7}.png",
     "assets/images/{DD6029C1-C6E6-4B38-874F-90B56A9E4B5C}.png",
     "assets/images/{4F086A8E-1EAE-45EE-B739-F31D1A699C76}.png",
     "assets/images/{C7609E7A-B103-4977-92C1-1EE93E3DB232}.png",
     "计算机网络/湖大教书匠/3.计算机网络的定义和分类.md",
-    "计算机网络/湖大教书匠/4.计算机网络的性能指标.md",
     "assets/images/{21169A92-C3D2-48FC-B6C0-EA477C97F002}.png",
-    "assets/images/{ACFFDB71-3CF1-4AC3-BA45-467DF78F9C37}.png",
-    "assets/images/{84B56BD9-C78C-4B8F-803C-B12E891CA809}.png",
     "计算机网络/湖大教书匠/2.三种交换方式.md",
-    "assets/images/{F973F0E5-08F5-4CFF-9BE8-3FE3ECD9F641}.png",
-    "assets/images/{3A429F27-B923-412F-8FB2-464C3F50CB7B}.png",
-    "assets/images/{58DF4DD4-C262-4609-B81A-28B43C882EA8}.png",
-    "assets/images/{AE52E5DC-4596-4847-82BB-6EB9224C3F96}.png",
     "计算机网络/湖大教书匠/1.因特网的概述.md",
     "数据结构算法/北大陈斌/4.python数据类型的性能.md",
     "数据结构算法/北大陈斌/3.变位词.md",
