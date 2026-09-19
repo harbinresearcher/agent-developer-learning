@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "数据结构算法/北大陈斌/4.python数据类型的性能.md",
+                "file": "计算机网络/湖大教书匠/6.第一章章节小结.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "4.python数据类型的性能"
+              "title": "6.第一章章节小结"
             }
           }
         ]
@@ -198,6 +198,8 @@
   },
   "active": "fb2658cb75a495e8",
   "lastOpenFiles": [
+    "数据结构算法/北大陈斌/4.python数据类型的性能.md",
+    "计算机网络/湖大教书匠/6.第一章章节小结.md",
     "assets/images/{E56D3C9D-6CDB-4FF0-ABC4-77D6CD60D22E}.png",
     "assets/images/{3198D4B2-D84C-4F40-BF9E-979206A0C8F1}.png",
     "计算机网络/湖大教书匠/5.计算机网络体系结构.md",
@@ -209,12 +211,10 @@
     "assets/images/{1E13B8CE-5567-4ACA-984A-C42AB6203FDD}.png",
     "assets/images/{ACDF775A-3546-493B-B684-4334BB72B44C}.png",
     "assets/images/{94B173CE-A22A-4D66-B78C-83217DE7C299}.png",
-    "assets/images/{7B755504-1857-431F-9093-B9C69D8D5D49}.png",
     "计算机网络/湖大教书匠/4.计算机网络的性能指标.md",
     "计算机网络/湖大教书匠/3.计算机网络的定义和分类.md",
     "计算机网络/湖大教书匠/2.三种交换方式.md",
     "计算机网络/湖大教书匠/1.因特网的概述.md",
-    "数据结构算法/北大陈斌/4.python数据类型的性能.md",
     "数据结构算法/北大陈斌/3.变位词.md",
     "数据结构算法/北大陈斌/2.大O表示法.md",
     "数据结构算法/北大陈斌/1.图灵机.md",
