@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "计算机网络/湖大教书匠/6.第一章习题课.md",
+                "file": "樊顺厚高等数学/极限的运算法则.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "6.第一章习题课"
+              "title": "极限的运算法则"
             }
           }
         ]
@@ -198,11 +198,13 @@
   },
   "active": "fb2658cb75a495e8",
   "lastOpenFiles": [
+    "樊顺厚高等数学/无穷小与无穷大.md",
+    "樊顺厚高等数学/极限的运算法则.md",
+    "计算机网络/湖大教书匠/6.第一章习题课.md",
     "assets/images/{85D50675-109E-4BE8-89EA-B2C53EAD5FBB}.png",
     "assets/images/{834A2703-B6E4-410B-8DC7-63ACF907BF0F}.png",
     "assets/images/{691A5FDE-92DF-487C-ABF5-750C56DF367C}.png",
     "数据结构算法/北大陈斌/4.python数据类型的性能.md",
-    "计算机网络/湖大教书匠/6.第一章习题课.md",
     "assets/images/{E56D3C9D-6CDB-4FF0-ABC4-77D6CD60D22E}.png",
     "assets/images/{3198D4B2-D84C-4F40-BF9E-979206A0C8F1}.png",
     "计算机网络/湖大教书匠/5.计算机网络体系结构.md",
@@ -211,7 +213,6 @@
     "assets/images/{7BCEB214-E32C-446D-9ACD-EE353CF080BF}.png",
     "assets/images/{85B5EF84-0054-4533-AFD3-2B6A46AF6C14}.png",
     "assets/images/{991F19DE-2C98-4522-98F9-83CFAE288763}.png",
-    "assets/images/{1E13B8CE-5567-4ACA-984A-C42AB6203FDD}.png",
     "计算机网络/湖大教书匠/4.计算机网络的性能指标.md",
     "计算机网络/湖大教书匠/3.计算机网络的定义和分类.md",
     "计算机网络/湖大教书匠/2.三种交换方式.md",
@@ -219,7 +220,6 @@
     "数据结构算法/北大陈斌/3.变位词.md",
     "数据结构算法/北大陈斌/2.大O表示法.md",
     "数据结构算法/北大陈斌/1.图灵机.md",
-    "樊顺厚高等数学/无穷小与无穷大.md",
     "数据结构算法/北大陈斌",
     "数据结构算法",
     "python高级",
