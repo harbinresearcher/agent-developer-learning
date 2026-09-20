@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "樊顺厚高等数学/极限的运算法则.md",
+                "file": "樊顺厚高等数学/极限存在准则与重要极限.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "极限的运算法则"
+              "title": "极限存在准则与重要极限"
             }
           }
         ]
@@ -80,8 +80,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "d6b291aebef8cdc5",
@@ -199,6 +198,11 @@
   },
   "active": "fb2658cb75a495e8",
   "lastOpenFiles": [
+    "樊顺厚高等数学/极限的运算法则.md",
+    "樊顺厚高等数学/极限存在准则与重要极限.md",
+    "assets/images/{B08809DC-20A6-41D9-94C7-DBBC1341171F}.png",
+    "assets/images/{FF9C51EF-ABE8-4E86-AEF5-CC2F2F7DA627}.png",
+    "assets/images/{416ED222-B74F-4B39-82F9-73BA8B516E48}.png",
     "assets/images/{135C32B3-ECB3-4119-B0AB-D62DCA1E7D81}.png",
     "assets/images/{EA036DCE-9D70-4C0D-849E-DC59339742C8}.png",
     "assets/images/{73B28917-2620-40E4-9C6A-9F945C78CDCB}.png",
@@ -206,12 +210,7 @@
     "assets/images/{6C75A1D0-CD6A-4487-8584-31F13252287D}.png",
     "assets/images/{C776D988-E4D7-48BB-8481-DF8AA518CC5F}.png",
     "assets/images/{EE7EAFAA-8C71-4946-B041-8887F3D58579}.png",
-    "assets/images/{A778BDC6-0458-4A9D-9DBC-9581D741D732}.png",
-    "assets/images/{349D48BD-287C-44C6-94C2-9D94A010CC77}.png",
-    "assets/images/{DE223427-EF0F-4E7C-8D32-3D0BDD114B85}.png",
-    "assets/images/{E36F44A5-5621-4C16-9896-43276ACB7E7B}.png",
     "樊顺厚高等数学/无穷小与无穷大.md",
-    "樊顺厚高等数学/极限的运算法则.md",
     "计算机网络/湖大教书匠/6.第一章习题课.md",
     "数据结构算法/北大陈斌/4.python数据类型的性能.md",
     "计算机网络/湖大教书匠/5.计算机网络体系结构.md",
