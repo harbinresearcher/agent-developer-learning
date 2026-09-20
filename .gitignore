@@ -6,3 +6,8 @@
 
 # 插件密钥，绝不入库
 **/api-keys.json
+
+# LearnKit 学习数据库：SQLite 二进制，两台设备同时写必然冲突且无法合并。
+# 用户只在电脑端使用 LearnKit，故这些文件保持本地专属、不参与同步。
+**/learnkit/scheduling/*.db
+**/LearnKit/*.db
