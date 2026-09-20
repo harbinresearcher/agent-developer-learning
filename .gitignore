@@ -4,9 +4,5 @@
 **/.obsidian/workspace-mobile.json
 **/.obsidian/cache
 
-# 插件密钥与本地配置，绝不入库
+# 插件密钥，绝不入库
 **/api-keys.json
-
-# LearnKit 本地数据库（每台设备各自的状态，不能用 git 同步）
-**/learnkit/scheduling/*.db
-**/LearnKit/*.db
