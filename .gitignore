@@ -1,2 +1,12 @@
-obsidian/workspace.json
-obsidian/workspace-mobile.json
+# Obsidian 界面/运行状态：每次开关应用都会重写，多设备同时备份必然冲突
+# 注意必须带前导点，匹配 .obsidian 目录（旧规则漏了点，导致一直没生效）
+**/.obsidian/workspace.json
+**/.obsidian/workspace-mobile.json
+**/.obsidian/cache
+
+# 插件密钥与本地配置，绝不入库
+**/api-keys.json
+
+# LearnKit 本地数据库（每台设备各自的状态，不能用 git 同步）
+**/learnkit/scheduling/*.db
+**/LearnKit/*.db
