@@ -11,3 +11,6 @@
 # 用户只在电脑端使用 LearnKit，故这些文件保持本地专属、不参与同步。
 **/learnkit/scheduling/*.db
 **/LearnKit/*.db
+
+# obsidian-git 自动生成的凭据辅助脚本，每台设备各自生成，无需同步
+**/obsidian_askpass.sh
