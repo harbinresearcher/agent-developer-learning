@@ -11,3 +11,11 @@
 
 需要先用`javac`把`Hello.java`编译成字节码文件`Hello.class`，然后，用`java`命令执行这个字节码文件![[{6CBEFCCB-45C3-4F6A-A1F9-A2C233594EA0}.png]]
 
+
+### 小结
+
+一个Java源码只能定义一个`public`类型的class，并且class名称和文件名要完全一致；
+
+使用`javac`可以将`.java`源码编译成`.class`字节码；
+
+使用`java`可以运行一个已编译的Java程序，参数是类名。
