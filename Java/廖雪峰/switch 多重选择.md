@@ -75,3 +75,28 @@ public class Main {
             break;
 ```
 
+![[{96D963F5-254D-4EEA-B562-28F05785569F}.png]]
+
+
+从Java 12开始，`switch`语句升级为更简洁的表达式语法，使用类似模式匹配（Pattern Matching）的方法，保证只有一种路径会被执行，并且不需要`break`语句：
+
+```java
+// switch
+public class Main {
+    public static void main(String[] args) {
+        String fruit = "apple";
+        switch (fruit) {
+        case "apple" -> System.out.println("Selected apple");
+        case "pear" -> System.out.println("Selected pear");
+        case "mango" -> {
+            System.out.println("Selected mango");
+            System.out.println("Good choice!");
+        }
+        default -> System.out.println("No fruit selected");
+        }
+    }
+}
+```
+
+注意新语法使用`->`，如果有多条语句，需要用`{}`括起来。
+
