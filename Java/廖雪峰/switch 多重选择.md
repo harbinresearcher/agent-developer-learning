@@ -100,3 +100,37 @@ public class Main {
 
 注意新语法使用`->`，如果有多条语句，需要用`{}`括起来。
 
+很多时候，我们还可能用`switch`语句给某个变量赋值。例如：
+
+```java
+int opt;
+switch (fruit) {
+case "apple":
+    opt = 1;
+    break;
+case "pear":
+case "mango":
+    opt = 2;
+    break;
+default:
+    opt = 0;
+    break;
+}
+```
+
+使用新的`switch`语法，不但不需要`break`，还可以直接返回值。把上面的代码改写如下：
+
+```java
+// switch
+public class Main {
+    public static void main(String[] args) {
+        String fruit = "apple";
+        int opt = switch (fruit) {
+            case "apple" -> 1;
+            case "pear", "mango" -> 2;
+            default -> 0;
+        }; // 注意赋值语句要以;结束
+        System.out.println("opt = " + opt);
+    }
+}
+```
