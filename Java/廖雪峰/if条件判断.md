@@ -54,3 +54,22 @@ public class Main {
 }
 ```
 
+要判断引用类型的变量内容是否相等，必须使用`equals()`方法：
+
+```java
+// 条件判断
+public class Main {
+    public static void main(String[] args) {
+        String s1 = "hello";
+        String s2 = "HELLO".toLowerCase();
+        System.out.println(s1);
+        System.out.println(s2);
+        if (s1.equals(s2)) {
+            System.out.println("s1 equals s2");
+        } else {
+            System.out.println("s1 not equals s2");
+        }
+    }
+}
+```
+
