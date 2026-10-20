@@ -80,3 +80,15 @@ def process_items(prices: dict[str, float]):
 
 `class Person:     def __init__(self, name: str):        self.name = name def get_person_name(one_person: Person)`
 
+
+
+## Pydantic 模型[¶](https://fastapi.tiangolo.com/zh/python-types/#pydantic-models "Permanent link")
+
+[Pydantic](https://pydantic.dev/docs/) 是一个用于执行数据校验的 Python 库。
+
+你将数据的“结构”声明为带有属性的类。
+
+每个属性都有一个类型。
+
+然后你用一些值创建这个类的实例，它会校验这些值，并在需要时把它们转换为合适的类型，返回一个包含所有数据的对象。
+
