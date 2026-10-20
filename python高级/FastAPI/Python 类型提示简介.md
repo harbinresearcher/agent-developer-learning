@@ -71,3 +71,12 @@ def process_items(prices: dict[str, float]):
 你可以声明一个值的类型是某种类型（比如 `str`），但它也可能是 `None`。
 
 `def say_hi(name: str | None = None):
+
+### 类作为类型[¶](https://fastapi.tiangolo.com/zh/python-types/#classes-as-types "Permanent link")
+
+你也可以把类声明为变量的类型。
+
+假设你有一个名为 `Person` 的类，带有 name：
+
+`class Person:     def __init__(self, name: str):        self.name = name def get_person_name(one_person: Person)`
+
