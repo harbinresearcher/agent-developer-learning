@@ -55,3 +55,19 @@ def process_items(prices: dict[str, float]):
 
 
 
+#### Union[¶](https://fastapi.tiangolo.com/zh/python-types/#union "Permanent link")
+
+你可以声明一个变量可以是**若干种类型**中的任意一种，比如既可以是 `int` 也可以是 `str`。
+
+定义时使用竖线（`|`）把两种类型分开。
+
+这称为“联合类型”（union），因为变量可以是这两类类型集合的并集中的任意一个。
+
+`def process_item(item: int | str):
+
+
+#### 可能为 `None`[¶](https://fastapi.tiangolo.com/zh/python-types/#possibly-none "Permanent link")
+
+你可以声明一个值的类型是某种类型（比如 `str`），但它也可能是 `None`。
+
+`def say_hi(name: str | None = None):
