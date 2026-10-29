@@ -1,3 +1,6 @@
+> **重要程度：高**｜**手练：需要**
+> 重点：时区感知时间、UTC、格式转换、时间差。
+
 # datetime · 笔记
 
 ## 先聊一个最基础的困惑：模块和类同名
@@ -17,7 +20,7 @@ print(type(now))                       # <class 'datetime.datetime'>，类型就
 
 ## 重头戏：timestamp，计算机眼里只有“一个数”
 
-**计算机存时间不存“年月日时分秒”，存的是一个数字**。这个数字叫 timestamp，定义是：**从 1970 年 1 月 1 日 00:00:00 UTC 到现在的秒数**。1970 年以前是负数。
+Unix 时间戳通常表示从 1970 年 1 月 1 日 00:00:00 UTC 起经过的秒数；1970 年以前通常是负数。时间还有其他存储格式，不能笼统说计算机只存时间戳。
 
 关键认知在这里：**timestamp 和时区完全无关**。`timestamp = 0` 对全世界所有计算机都是同一个时刻，只不过北京人看到的是 `1970-1-1 08:00:00`（UTC+8），伦敦人看到的是 `1970-1-1 00:00:00`（UTC+0）。**同一个 timestamp，换算成不同时区的“墙上时间”不同，但它本身是唯一的。** 这就是为什么全球计算机对表都用 timestamp。
 
@@ -34,13 +37,9 @@ Python 的 timestamp 是**浮点数**，整数位是秒。如果你从 JavaScrip
 
 ### timestamp → datetime
 
-```python
-t = 1429417200.0
-datetime.fromtimestamp(t)              # 2015-04-19 12:20:00，转成本地时间
-datetime.utcfromtimestamp(t)           # 2015-04-19 04:20:00，转成 UTC 时间
-```
+本地时间可用 `datetime.fromtimestamp(t)`；需要带 UTC 时区的结果时，用 `datetime.fromtimestamp(t, timezone.utc)`。旧接口 `utcfromtimestamp()` 自 Python 3.12 起已弃用。
 
-`fromtimestamp()` 转出来的 datetime **没有时区信息**，它只是按本地时区给你一个“墙上时间”。
+不传时区参数时，`fromtimestamp()` 返回的 datetime **没有时区信息**，它只是按本地时区给你一个“墙上时间”。
 
 ---
 
@@ -100,15 +99,11 @@ dt = datetime.now().replace(tzinfo=tz_utc_8)   # 强制把这个时间标记为 
 
 要真正做时区转换，流程是：**先拿到一个带时区的 datetime 作为基准，再用 `astimezone()` 转到目标时区**。
 
-```python
-utc_dt = datetime.utcnow().replace(tzinfo=timezone.utc)   # 拿 UTC 时间，并标记为 UTC+0
-bj_dt = utc_dt.astimezone(timezone(timedelta(hours=8)))    # 转成北京时间
-tokyo_dt = bj_dt.astimezone(timezone(timedelta(hours=9)))  # 从北京转东京，不需要绕回 UTC
-```
+先用 `datetime.now(timezone.utc)` 得到带 UTC 时区的当前时间，再调用 `astimezone(目标时区)`。
 
-**`astimezone()` 会真正换算时间**，不是贴标签。而且**不要求从 UTC 出发**，任何带时区的 datetime 都能直接转到另一个时区，上面 `bj_dt` 到 `tokyo_dt` 就是例子。
+**`astimezone()` 会真正换算时间**，不是贴标签。而且**不要求从 UTC 出发**，任何带时区的 datetime 都能直接转到另一个时区，例如可以先转到北京时间，再转到东京时间。
 
-**时区转换的唯一关键**：拿到一个 datetime 时，**你必须知道它原本是哪个时区**。不知道原始时区，转换就是猜。所以要么从 timestamp 转（timestamp 自带时区信息），要么用 `utcnow().replace(tzinfo=timezone.utc)` 从 UTC 出发。
+**时区转换的唯一关键**：拿到一个 datetime 时，**你必须知道它原本是哪个时区**。不知道原始时区，转换就是猜。所以要么从 timestamp 转（timestamp 表示时间点，本身不携带时区名称），要么用 `datetime.now(timezone.utc)` 从 UTC 出发。
 
 ---
 
@@ -116,7 +111,7 @@ tokyo_dt = bj_dt.astimezone(timezone(timedelta(hours=9)))  # 从北京转东京�
 
 第一句：**“datetime 表示的时间需要时区信息才能确定一个特定的时间，否则只能视为本地时间。”** 一个没有 `tzinfo` 的 datetime，只是一个“墙上时间的快照”，它不指向全球唯一的时刻。
 
-第二句：**“如果要存储 datetime，最佳方法是将其转换为 timestamp 再存储。”** timestamp 和时区完全无关，存进数据库、传给别的系统都不会因为时区解释不同而出错。**存 datetime 对象，换一台时区不同的机器读出来，含义可能就变了。**
+第二句：存储和传输时间点时，可使用 UTC 感知 datetime 或明确单位的 Unix 时间戳，并约定格式和精度。需要保留原始地区或未来日程时，还应保存 IANA 时区，例如 `Asia/Shanghai`；固定 UTC 偏移不能表达夏令时规则。Python 3.12 起 `utcnow()` 已弃用，改用 `datetime.now(timezone.utc)`。参考：[datetime](https://docs.python.org/3/library/datetime.html)。
 
 ---
 
@@ -124,7 +119,7 @@ tokyo_dt = bj_dt.astimezone(timezone(timedelta(hours=9)))  # 从北京转东京�
 
 1. `from datetime import datetime` 和 `import datetime` 之后调用方式有什么不同？为什么推荐前者？
 2. 同一个“墙上时间” `2024-01-01 12:00:00`，在北京和伦敦对应的 timestamp 相同吗？为什么？
-3. `datetime.fromtimestamp(t)` 和 `datetime.utcfromtimestamp(t)` 的结果差在哪？差多少取决于什么？
+3. `datetime.fromtimestamp(t)` 和 `datetime.fromtimestamp(t, timezone.utc)` 在时区信息上有什么区别？
 4. `strptime` 和 `strftime` 哪个是“字符串转 datetime”，哪个是反方向？`%Y` 和 `%m` 分别代表什么？
 5. 为什么 `timedelta(days=30)` 不能可靠地表示“一个月后”？
 6. `replace(tzinfo=...)` 和 `astimezone(...)` 的本质区别是什么？做时区转换时，为什么必须先知道原始时区？

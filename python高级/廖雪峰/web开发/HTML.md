@@ -1,6 +1,5 @@
-这页的核心其实就一句话：**HTML 定义了网页的“内容骨架”，而 FastAPI 这类后端框架，就是在服务器端动态生成这个骨架，然后扔给浏览器去渲染**。咱们顺着“HTML 是什么 → FastAPI 怎么返回 HTML → 两种做法的取舍 → 几个必须避开的坑”这条线走。
-
----
+> **重要程度：中**｜**手练：建议**
+> 重点：标签、表单、语义化与转义。
 
 # HTML 简介 · 笔记
 
@@ -119,13 +118,13 @@ async def read_item(request: Request, id: str):
 
 ## 几个必须盯死的坑
 
-**① `return` 一个 HTML 字符串，不指定 `response_class`，浏览器会显示转义后的代码。** FastAPI 默认把裸字符串当纯文本处理，`<h1>` 会被转义成 `&lt;h1&gt;`，用户看到的是标签源码，不是页面。**必须显式声明 `HTMLResponse`**。
+**① `return` 一个 HTML 字符串，不指定 `response_class`，浏览器会显示转义后的代码。** FastAPI 默认将返回的字符串作为 JSON 响应序列化，浏览器不会将它作为 HTML 页面渲染。**必须显式声明 `HTMLResponse`**。
 
 **② 模板路径写错，直接报 `TemplateNotFound`。** `Jinja2Templates(directory="templates")` 里的路径是**相对于你启动 FastAPI 时的工作目录**，不是相对于 Python 文件。路径不对，模板加载不到，路由直接 500。
 
 **③ `context` 不传 `request`，部分 Jinja2 特性会报错。** `TemplateResponse` 的 `request` 参数是必填的，漏了会直接报错。
 
-**④ 不要把用户输入直接拼进 HTML 字符串。** 如果你用 `HTMLResponse` 手拼字符串，用户输入里带 `<script>` 标签，就会造成 **XSS 攻击**。Jinja2 默认会对变量做 HTML 转义，**这正是模板引擎比手拼字符串安全的地方**。
+**④ 不要把用户输入直接拼进 HTML 字符串。** 如果你用 `HTMLResponse` 手拼字符串，用户输入里带 `<script>` 标签，就会造成 **XSS 攻击**。使用 Jinja2 时要确认 HTML 模板启用了自动转义；不同输出上下文还需要相应处理，不能把自动转义当成所有 XSS 场景的完整防护。
 
 ---
 

@@ -1,4 +1,7 @@
-这节是数据库部分的**终极大招**。前面用 SQLite 和 MySQL 时，你都得手写 SQL 字符串；而 SQLAlchemy 要做的，就是让你**彻底摆脱手写 SQL，用纯 Python 对象的方式去操作数据库**。
+> **重要程度：高**｜**手练：需要**
+> 重点：SQLAlchemy 2.x 查询、Session、事务和回滚。
+
+SQLAlchemy ORM 将数据库记录映射为 Python 对象，但仍需理解 SQL、索引、事务和查询性能。
 
 ---
 
@@ -16,7 +19,7 @@ SQLAlchemy 解决的正是这个问题，它的核心思想就是**把数据库�
 
 ### 第一步：定义模型（Model），表就长在类里
 
-你不需要再写 `CREATE TABLE`，只要写一个类继承 `Base`，用类属性描述字段：
+模型定义描述映射关系；它本身不会创建或迁移数据库表。开发时可用 `create_all()` 建表，已有生产库的结构变更通常交给迁移工具。
 
 ```python
 from sqlalchemy.orm import declarative_base
@@ -118,11 +121,17 @@ with DBSession() as session:
 
 ## 这页记住三件事
 
-1. **ORM = 表映射成类、行映射成对象**，你不再写 SQL，而是操作 Python 对象。
+1. **ORM = 表映射成类、行映射成对象**，可以操作 Python 对象；仍需理解和检查生成的 SQL。
 2. **三步骨架：定义 Model（继承 Base）→ 创建 Engine（连接字符串）→ 开会话 Session**。
-3. **查询用 `select()` + `session.execute()`（2.0 新写法）**，别再用 `session.query()` 老写法；增删改都是“操作对象 + `commit()`”。
+3. **查询用 `select()` + `session.execute()`（2.0 新写法）**，新代码优先使用 `select()`；`session.query()` 在 2.x 中仍作为旧接口保留；增删改都是“操作对象 + `commit()`”。
 
 ---
+
+## 工作中注意
+
+Session 的关闭不等于提交。发生异常时要回滚；可使用事务上下文统一管理提交和回滚。检查查询数量与索引，避免关系属性触发 N+1 查询。数据库密码通过受控配置或密钥管理注入，不提交源码。
+
+参考：[SQLAlchemy Session](https://docs.sqlalchemy.org/en/20/orm/session_basics.html)。
 
 ## 自测
 

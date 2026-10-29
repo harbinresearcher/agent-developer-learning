@@ -1,14 +1,13 @@
-这节原文的重点非常明确：前半截教你怎么把 MySQL 服务器跑起来，后半截教你用 Python 驱动去连它。由于你之前定过基调“MySQL 了解即可”，咱们把篇幅控住，只抓**必须知道的差异**和**实际会踩的坑**。
-
----
+> **重要程度：高**｜**手练：需要**
+> 重点：参数化查询、事务、索引和连接管理。
 
 # 使用 MySQL · 笔记
 
 ## 先定性：它和 SQLite 分工不同
 
-原文开篇说得很直接：**SQLite 是轻量级、可嵌入的，适合桌面和移动应用，但扛不住高并发；MySQL 是为服务器端设计的，能承受高并发，但内存占用远大于 SQLite**。
+SQLite 是嵌入式数据库，适合本地工具、测试及部分服务器应用；MySQL 是独立的数据库服务，适合需要集中管理和多客户端访问的场景。
 
-所以选型逻辑很简单：本地小工具、测试用例用 SQLite；线上 Web 服务用 MySQL。
+选择要看并发写入、部署方式、数据量、备份和运维要求，不能只按是否上线判断。
 
 ---
 
@@ -18,11 +17,9 @@
 
 **Docker 启动**（更省事，不用污染本机环境）：
 
-```bash
-docker run -e MYSQL_ROOT_PASSWORD=password -p 3306:3306 --name mysql-8.4 -v ./mysql-data:/var/lib/mysql mysql:8.4 --mysql-native-password=ON --character-set-server=utf8mb4 --collation-server=utf8mb4_unicode_ci
-```
+本地容器应固定项目认可的 MySQL 版本，配置持久化卷和仅供本机使用的连接凭据。具体启动参数以镜像文档和项目配置为准。
 
-这段命令里你只需要盯住两个参数：**`-v` 把数据目录映射到本机**，避免容器一停数据全没；**`--character-set-server=utf8mb4`** 指定字符集，后面细说。看到输出最后一行 `ready for connections` 就表示启动成功。
+数据卷用于持久化数据库文件；容器运行与数据库已就绪是两件事，应检查健康状态和连接。不要把生产密码写进命令历史或源码。
 
 ---
 
@@ -34,7 +31,7 @@ Windows 安装时直接选 UTF-8 编码；Mac/Linux 要改配置文件 `/etc/my.
 
 验证方法：进入 MySQL 命令行后执行 `show variables like '%char%';`，**看到 `character_set_client`、`character_set_database` 这些全是 `utf8mb4` 才算对**。有一个是 `utf8`，将来就可能出现乱码或插入失败。
 
-**关键认知**：如果你的 MySQL 版本低于 5.5.3，那就只能用 `utf8`，`utf8mb4` 是 5.5.3 之后才支持的。现在新装基本都是 8.x，无脑选 `utf8mb4` 就行。
+新项目通常选 `utf8mb4`，并核对数据库、表、列及连接设置。`mysql_native_password` 在 MySQL 8.0.34 起弃用、8.4 默认禁用、9.0 移除；优先使用受支持的认证方式，不要为新项目启用旧插件。参考：[MySQL 认证文档](https://dev.mysql.com/doc/refman/8.4/en/native-pluggable-authentication.html)。
 
 ---
 
@@ -42,7 +39,7 @@ Windows 安装时直接选 UTF-8 编码；Mac/Linux 要改配置文件 `/etc/my.
 
 这是从 SQLite 切换过来最容易写错的地方。
 
-**SQLite** 的占位符是 `?`，**MySQL 的占位符是 `%s`**。把 SQLite 的代码直接搬过来，`execute` 会直接报错。
+Python 内置 `sqlite3` 常用 `?` 占位；本页所用 MySQL 驱动常用 `%s`。占位符语法由具体驱动决定，不要自行拼接用户输入。
 
 ```python
 # 插入
@@ -79,7 +76,7 @@ cursor = conn.cursor()
 
 ## 和 SQLite 完全一致的部分：别重复踩
 
-- **写完必须 `conn.commit()`**：`execute` 只把数据放在内存里，不 commit 就关连接，数据直接丢。
+- **写完必须 `conn.commit()`**：事务未自动提交时，`execute` 已执行 SQL，但修改还需提交才能作为已提交结果保留；异常时回滚。自动提交行为取决于驱动和配置。
 - **查完用 `fetchall()`**：返回元组列表，一行一个元组。
 - **资源必须关**：`cursor.close()` 和 `conn.close()` 在 `finally` 里兜底，别裸奔。
 

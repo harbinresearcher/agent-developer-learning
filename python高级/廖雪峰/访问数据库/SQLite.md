@@ -1,6 +1,5 @@
-这节原文虽然只有几十行代码，但它把你后面用 SQLAlchemy 甚至 FastAPI 操作数据库时**最底层的机制**全给亮了底。咱们顺着“它是个啥 → 怎么连 → 怎么建表/写 → 怎么查 → 怎么防坑”这条线走，把底层逻辑摸透。
-
----
+> **重要程度：高**｜**手练：需要**
+> 重点：参数化查询、事务、连接管理和锁。
 
 # 使用 SQLite · 笔记
 
@@ -34,7 +33,7 @@ print(cursor.rowcount)                      # 1，rowcount 告诉你插入了几
 conn.commit()                               # 提交事务，数据才真正写入文件！
 ```
 
-**核心干货**：`execute` 执行完之后，数据只是**暂存**在内存里。**必须调 `conn.commit()`**，数据才会写进硬盘文件。不 commit 就关连接，数据直接丢，这是新手最容易踩的坑。
+事务开启时，`execute()` 已执行 SQL，但修改尚未提交；应根据事务模式提交或回滚。不要把未提交等同于“只在内存里”。SQLite 的 `with conn:` 管理事务，但不会关闭连接；连接仍需关闭。参考：[sqlite3 事务管理](https://docs.python.org/3/library/sqlite3.html#transaction-control)。
 
 ## 查数据：fetchall 返回的是元组列表
 

@@ -1,3 +1,6 @@
+> **重要程度：中**｜**手练：建议**
+> 重点：复用会话、超时、并发限制、响应关闭。
+
 这一页是将前面学到的`asyncio`和`await`真正应用到网络请求上的实战篇。它的核心是教你如何使用**异步HTTP客户端`aiohttp`**，来实现高并发的网络请求，这正是FastAPI作为高性能后端框架所依赖的能力。
 
 ### 🎯 为什么不能用`requests`？
@@ -26,7 +29,7 @@ async def main():
 
 asyncio.run(main())
 ```
-这里的关键是，`session.get()`返回的是一个需要`await`的上下文管理器，而`response.text()`本身也是一个协程，需要用`await`获取结果。
+这里的关键是，`session.get()` 返回支持 `async with` 的请求上下文管理器，进入时等待响应；`response.text()` 是协程，需要 `await` 获取结果。
 
 ### 🚀 实现并发：`asyncio.gather`的用武之地
 要并发请求多个URL，只需创建任务列表，交给`asyncio.gather`统一调度：
@@ -43,11 +46,11 @@ async def main():
 
 asyncio.run(main())
 ```
-`asyncio.gather`会并发运行所有`fetch`协程，总耗时取决于最慢的那个请求，而不是所有请求时间之和。
+`asyncio.gather`会并发运行所有`fetch`协程，并发能重叠等待；总耗时受最慢请求、连接池、限流和网络等因素影响。
 
 ### ⚠️ 关键注意事项
 1.  **会话（Session）要复用**：`ClientSession`内部维护了连接池，**应该在整个应用生命周期内复用一个实例**，而不是在每个请求函数里都新建。在FastAPI中，通常用`lifespan`事件在应用启动时创建`ClientSession`，并存放在`app.state`中，供所有路由共享。
-2.  **必须设置超时**：`aiohttp`的会话**默认没有超时限制**，一个无响应的请求可能会永远挂起。务必在创建`ClientSession`时设置全局超时，或在单次请求中指定。
+2.  **必须设置超时**：aiohttp 默认存在超时；当前稳定文档列出总超时 300 秒、套接字连接超时 30 秒，具体取决于版本。实际项目应根据服务需求在会话或请求上明确设置超时。参考：[aiohttp 超时](https://docs.aiohttp.org/en/stable/client_quickstart.html#timeouts)。
     ```python
     # 全局超时：总时长30秒
     timeout = aiohttp.ClientTimeout(total=30)

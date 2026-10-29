@@ -1,4 +1,7 @@
-collections模块里一共有**六个工具**，它们各自解决原生数据类型（tuple / list / dict）在实际使用中的一个痛点。我们按照“它解决什么问题 → 怎么用 → 注意点”的顺序，把这六个过一遍。
+> **重要程度：高**｜**手练：需要**
+> 重点：Counter、defaultdict、deque、namedtuple。
+
+collections 提供多种集合工具。本页介绍其中六种。
 
 ---
 
@@ -6,7 +9,7 @@ collections模块里一共有**六个工具**，它们各自解决原生数据�
 
 ## 先聊：为什么要有这个模块
 
-Python内置的tuple、list、dict用起来方便，但都有明显的局限：tuple用下标访问，读代码的人不知道`(1, 2)`是什么意思；list头部插入删除效率极低；dict的key不存在直接报错，有时候你想要一个默认值；dict在Python 3.7之前不保证顺序。collections就是**针对这些具体痛点，提供六个专门的集合类**。你不需要全部记住，但看到某个场景，应该能条件反射地想到它。
+Python内置的tuple、list、dict用起来方便，但都有明显的局限：tuple用下标访问，读代码的人不知道`(1, 2)`是什么意思；list头部插入删除效率极低；dict的key不存在直接报错，有时候你想要一个默认值；dict在Python 3.7之前不保证顺序。collections就是**提供多个专门的集合工具，本页介绍六种**。你不需要全部记住，但看到某个场景，应该能条件反射地想到它。
 
 ---
 
@@ -67,7 +70,7 @@ print(dd['key1'])                 # 'abc'，key存在，正常返回
 print(dd['key2'])                 # 'N/A'，key不存在，返回默认值，不报错
 ```
 
-**关键点**：默认值是**调用函数返回的**，这个函数在你创建`defaultdict`时就传进去了。除了key不存在时返回默认值这一点，`defaultdict`的其他行为和普通dict完全一样。
+**关键点**：默认值是**调用函数返回的**，这个函数在你创建`defaultdict`时就传进去了。缺失键的方括号访问会调用工厂并插入新值；`get()` 不会触发默认工厂。
 
 **最常用的写法**是`defaultdict(list)`或`defaultdict(int)`，分别用于“把值收集成列表”和“计数”的场景。
 
@@ -91,7 +94,7 @@ print(list(od.keys()))   # ['z', 'y', 'x']，按插入顺序，不是字母排�
 
 注意：**是按插入顺序，不是按key本身排序**。先插`z`再插`y`，`z`就在前面。
 
-**OrderedDict真正独特的地方**：它可以实现一个**FIFO（先进先出）的dict**，当容量超出限制时，自动删除最早添加的key。原文的`LastUpdatedOrderedDict`示例就是做这件事：当容量满了，用`popitem(last=False)`弹出最早插入的那个key。这是普通dict做不到的。
+**OrderedDict真正独特的地方**：它可以实现一个**FIFO（先进先出）的dict**，需要自己编写容量和淘汰逻辑，才能在容量超出限制时删除最早添加的 key。原文的`LastUpdatedOrderedDict`示例就是做这件事：当容量满了，用`popitem(last=False)`弹出最早插入的那个key。这是普通dict做不到的。
 
 **适用场景**：需要控制顺序的缓存、需要按插入顺序序列化的配置、以及需要FIFO淘汰策略的场景。
 
@@ -115,7 +118,7 @@ print(combined['color'])   # 'green'，命令行没有color，查到环境变量
 print(combined['user'])    # 'bob'，命令行有user，直接用
 ```
 
-`ChainMap`本身也是一个dict，但**查找时按照构造时传入的顺序，依次在内部dict中搜索**，找到就返回，不再继续往后找。**适用场景**：多级配置系统、参数优先级查找。
+`ChainMap` 是映射对象，不是 dict 子类，但**查找时按照构造时传入的顺序，依次在内部dict中搜索**，找到就返回，不再继续往后找。**适用场景**：多级配置系统、参数优先级查找。
 
 ---
 
@@ -159,3 +162,4 @@ print(c)                     # 各字符的计数被更新
 4. `OrderedDict`的key按什么顺序排列？它在Python 3.7+还有什么普通dict替代不了的能力？
 5. `ChainMap(command_line, env, defaults)`查找`'color'`时，搜索顺序是什么？找到第一个就停还是继续找？
 6. `Counter('programming')`返回的是什么类型？`c.update('hello')`之后，`'g'`的计数会变吗？为什么？
+手练：用 `Counter` 统计词频，用 `defaultdict(list)` 分组，再用 `deque` 写一个先进先出队列；确认读取缺失键时 `get()` 和方括号的区别。
