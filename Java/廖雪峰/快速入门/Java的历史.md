@@ -1,3 +1,6 @@
+> **重要程度：低**｜**手练：按需**
+> **重点**：理解 JDK、JVM 和版本支持。
+
 - JDK：Java Development Kit
 - JRE：Java Runtime Environment
 - 简单地说，JRE就是运行Java字节码的虚拟机。但是，如果只有Java源码，要编译成Java字节码，就需要JDK，因为JDK除了包含JRE，还提供了编译器、调试器等开发工具。
