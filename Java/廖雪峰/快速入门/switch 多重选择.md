@@ -1,164 +1,77 @@
+# switch 多重选择
+
 > **重要程度：高**｜**手练：需要**
-> **重点**：case、break 和版本差异。
+> **重点**：case 匹配、break、贯穿与版本区别。
 
-除了`if`语句外，还有一种条件判断，是根据某个表达式的结果，分别去执行不同的分支。
+## 先理解：一个值对应多种固定情况
 
-例如，在游戏中，让用户选择选项：
+订单状态是 0、1、2 等离散值时，`switch` 能把每个值对应的处理写在一起。它适合匹配固定值，不适合直接表达“分数大于 60”这样的范围；范围判断通常用 `if`。
 
-1. 单人模式
-2. 多人模式
-3. 退出游戏
+## 完整例子：兼容 Java 11
 
-这时，`switch`语句就派上用场了。
-
-
-我们看一个例子：
+保存为 `SwitchDemo.java`，编译并运行；标准输出如下，日志另写到标准错误。
 
 ```java
-// switch
-public class Main {
+import java.util.logging.Logger;
+
+public class SwitchDemo {
+    private static final Logger logger = Logger.getLogger(SwitchDemo.class.getName());
+
     public static void main(String[] args) {
-        int option = 1;
-        switch (option) {
-        case 1:
-            System.out.println("Selected 1");
-            break;
-        case 2:
-            System.out.println("Selected 2");
-            break;
-        case 3:
-            System.out.println("Selected 3");
-            break;
+        /*
+         * ========================================================================
+         * 步骤1：根据状态码选择动作
+         * ========================================================================
+         * 数据源：程序内准备的示例数据
+         * 操作：
+         * 1) 初始化输入
+         * 2) 按控制流程处理并输出结果
+         */
+        logger.info("开始处理示例");
+        // 1.1 准备状态码
+        int status = 1;
+        // 1.2 匹配 case 并用 break 结束分支
+        switch (status) {
+            case 0:
+                System.out.println("待处理");
+                break;
+            case 1:
+                System.out.println("处理中");
+                break;
+            case 2:
+                System.out.println("已完成");
+                break;
+            default:
+                System.out.println("未知状态");
         }
+        logger.info("示例处理完成");
     }
 }
 ```
 
-如果`option`的值没有匹配到任何`case`，例如`option = 99`，那么，`switch`语句不会执行任何语句。这时，可以给`switch`语句加一个`default`，当没有匹配到任何`case`时，执行`default`：
-```java
-default:
-            System.out.println("Selected other");
-            break;
+标准输出：
+
+```text
+处理中
 ```
 
+## 按顺序读代码
 
-如果有几个`case`语句执行的是同一组语句块，可以这么写：
+`status` 为 1，`switch` 找到 `case 1`，输出“处理中”。`break` 退出整个 `switch`，所以不会执行 `case 2`。没有任何 case 匹配时，执行 `default`。`default` 可以放在其他位置，但一般放最后方便阅读。
 
-```java
-// switch
-public class Main {
-    public static void main(String[] args) {
-        int option = 2;
-        switch (option) {
-        case 1:
-            System.out.println("Selected 1");
-            break;
-        case 2:
-        case 3:
-            System.out.println("Selected 2, 3");
-            break;
-        default:
-            System.out.println("Selected other");
-            break;
-        }
-    }
-}
-```
+**贯穿是旧语法的重要陷阱：** 删除 `case 1` 下面的 `break` 后，程序会继续执行后面的 `case 2`，输出“处理中”和“已完成”，直到遇到 `break`；它不会再次比较 `status`。多个 case 共用处理时可以有意贯穿，但应写明意图。
 
-`switch`语句还可以匹配字符串。字符串匹配时，是比较“内容相等”。例如：
+Java 11 的传统 `switch` 可用于 `byte`、`short`、`char`、`int` 及对应包装类、枚举和 `String`；不能直接用 `long` 或 `boolean`。包装类或字符串为 `null` 时，传统写法会抛出 `NullPointerException`，先检查空值。
 
-```java
-// switch
-public class Main {
-    public static void main(String[] args) {
-        String fruit = "apple";
-        switch (fruit) {
-        case "apple":
-            System.out.println("Selected apple");
-            break;
-```
+## 版本区别与工作用法
 
-![[{96D963F5-254D-4EEA-B562-28F05785569F}.png]]
+Java 14 起，`switch` 表达式成为正式特性：可以用 `case ... ->` 表示匹配后执行且不贯穿，还可以让整个表达式返回值。Java 11 不能把它当正式语法使用；项目以实际 JDK 和编译配置为准。Java 21 扩展了模式匹配等能力，不要将其误当成 Java 11 的功能。项目中的业务状态建议用枚举表达，仍要处理外部传来的未知值。
 
+## 手练与答案
 
-从Java 12开始，`switch`语句升级为更简洁的表达式语法，使用类似模式匹配（Pattern Matching）的方法，保证只有一种路径会被执行，并且不需要`break`语句：
+1. 将 `status` 改成 3：输出“未知状态”。
+2. 将 `status` 改成 0，同时去掉 `case 0` 后的 `break`：依次输出“待处理”“处理中”，然后在 `case 1` 的 `break` 处退出。
 
-```java
-// switch
-public class Main {
-    public static void main(String[] args) {
-        String fruit = "apple";
-        switch (fruit) {
-        case "apple" -> System.out.println("Selected apple");
-        case "pear" -> System.out.println("Selected pear");
-        case "mango" -> {
-            System.out.println("Selected mango");
-            System.out.println("Good choice!");
-        }
-        default -> System.out.println("No fruit selected");
-        }
-    }
-}
-```
+参考：[Oracle：switch 表达式](https://docs.oracle.com/en/java/javase/14/language/switch-expressions.html)、[Java 版本变化](https://docs.oracle.com/en/java/javase/21/language/java-language-changes-release.html)。
 
-注意新语法使用`->`，如果有多条语句，需要用`{}`括起来。
-
-很多时候，我们还可能用`switch`语句给某个变量赋值。例如：
-
-```java
-int opt;
-switch (fruit) {
-case "apple":
-    opt = 1;
-    break;
-case "pear":
-case "mango":
-    opt = 2;
-    break;
-default:
-    opt = 0;
-    break;
-}
-```
-
-下面是较新的 `switch` 表达式，Java 14 起正式可用；Java 11 环境无法直接编译这类语法。箭头分支不需要传统的 `break`，表达式可以返回值。把上面的代码改写如下：
-
-```java
-// switch
-public class Main {
-    public static void main(String[] args) {
-        String fruit = "apple";
-        int opt = switch (fruit) {
-            case "apple" -> 1;
-            case "pear", "mango" -> 2;
-            default -> 0;
-        }; // 注意赋值语句要以;结束
-        System.out.println("opt = " + opt);
-    }
-}
-```
-
-
-### yield
-
-大多数时候，在`switch`表达式内部，我们会返回简单的值。
-
-但是，如果需要复杂的语句，我们也可以写很多语句，放到`{...}`里，然后，用`yield`返回一个值作为`switch`语句的返回值：
-
-```java
-// yield
-public class Main {
-    public static void main(String[] args) {
-        String fruit = "orange";
-        int opt = switch (fruit) {
-            case "apple" -> 1;
-            case "pear", "mango" -> 2;
-            default -> {
-                int code = fruit.hashCode();
-                yield code; // switch语句返回值
-            }
-        };
-        System.out.println("opt = " + opt);
-    }
-}
-```
+课程原文：[廖雪峰 Java 教程：switch 多重选择](https://liaoxuefeng.com/books/java/quick-start/flow/switch/index.html)。
