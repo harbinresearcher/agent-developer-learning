@@ -16,3 +16,9 @@ ZIP 包含多个条目，输入流可逐条读取，输出流可逐条写入；�
 在测试目录压缩两个文件后解压；验证包含 ../ 的恶意条目会被拒绝。
 
 来源：[教程：操作Zip](https://liaoxuefeng.com/books/java/io/zip/index.html)。
+
+## 关联知识与实践
+
+读取 classpath 资源与读取普通文件是两种路径：打包进 JAR 后，资源不一定是可直接操作的系统文件。处理 ZIP 等归档时，解压路径必须限制在目标目录内，防止目录穿越；避免解压不受限制的大量数据。
+
+来源：[教程：IO](https://liaoxuefeng.com/books/java/io/index.html)；[Java 文件 IO](https://dev.java/learn/java-io/)。

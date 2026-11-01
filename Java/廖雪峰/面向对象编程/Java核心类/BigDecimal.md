@@ -49,3 +49,9 @@ public class MoneyDemo {
 ```
 
 输出依次为 `0.30`、`true`、`false`。`compareTo` 在这里比较数值；`equals` 还考虑 scale。真实金额计算应按业务明确精度和舍入规则。
+
+## 关联知识与实践
+
+把两个类放进不同包，验证访问修饰符；比较字符串内容和对象引用；用 `BigDecimal` 计算金额并规定两位小数。
+
+来源：[教程：Java核心类](https://liaoxuefeng.com/books/java/oop/core/index.html)；[Java records](https://docs.oracle.com/en/java/javase/17/language/records.html)。

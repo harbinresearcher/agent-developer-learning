@@ -13,6 +13,6 @@ Java 程序基础包括类和方法结构、基本类型与引用、表达式、
 
 ## 手练
 
-按目录复习各子节，编译运行 [[练习01 数组循环与平均值]]。
+按目录复习各子节，编译运行 [[Java/廖雪峰/快速入门/遍历数组|数组循环与平均值练习]]。
 
 来源：[教程：Java程序基础](https://liaoxuefeng.com/books/java/quick-start/basic/index.html)。

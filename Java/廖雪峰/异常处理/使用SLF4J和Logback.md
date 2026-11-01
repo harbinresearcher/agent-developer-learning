@@ -16,3 +16,9 @@ SLF4J 提供日志门面，Logback 是一种可选实现。代码依赖门面并
 在测试项目中分别记录普通消息和带异常堆栈的错误；调整级别并确认密码或令牌没有进入日志。
 
 来源：[教程：使用SLF4J和Logback](https://liaoxuefeng.com/books/java/exception/slf4j-logback/index.html)。
+
+## 关联知识与实践
+
+`assert` 可能被运行参数关闭，不用于校验外部输入。日志记录有助定位问题的上下文和异常堆栈；不要记录密码、令牌或完整敏感数据。应用和依赖应按项目约定统一日志门面与实现；JDK Logging、SLF4J、Logback 的职责不同。
+
+来源：[教程：异常处理](https://liaoxuefeng.com/books/java/exception/index.html)；[Java try-with-resources](https://docs.oracle.com/javase/tutorial/essential/exceptions/tryResourceClose.html)。

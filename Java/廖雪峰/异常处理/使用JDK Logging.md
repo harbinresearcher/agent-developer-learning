@@ -13,6 +13,6 @@ JDK 自带 `java.util.logging`，无需额外依赖。Logger 接收不同级别�
 
 ## 手练
 
-运行 [[练习01 数组循环与平均值]]，观察日志和标准输出；修改日志级别并说明哪些记录仍可见。
+运行 [[Java/廖雪峰/快速入门/遍历数组|数组循环与平均值练习]]，观察日志和标准输出；修改日志级别并说明哪些记录仍可见。
 
 来源：[教程：使用JDK Logging](https://liaoxuefeng.com/books/java/exception/jdk-logging/index.html)。

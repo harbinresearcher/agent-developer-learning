@@ -16,3 +16,9 @@ DateTimeFormatter 按指定格式和地区解析或格式化日期时间；格�
 格式化跨年附近的日期，比较周基年与日历年结果。
 
 来源：[教程：DateTimeFormatter](https://liaoxuefeng.com/books/java/datetime/datetime-formatter/index.html)。
+
+## 关联知识与实践
+
+`DateTimeFormatter` 负责格式化和解析，格式符号区分大小写；日历年份一般用 `yyyy` 或按需求使用 `uuuu`，不要误用周基年 `YYYY`。
+
+来源：[教程：日期与时间](https://liaoxuefeng.com/books/java/datetime/index.html)；[Java Date-Time API](https://dev.java/learn/date-time/)。

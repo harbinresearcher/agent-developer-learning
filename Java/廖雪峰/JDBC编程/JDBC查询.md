@@ -16,3 +16,9 @@
 按用户编号查询测试数据，分别验证存在、不存在及特殊字符输入。
 
 来源：[教程：JDBC查询](https://liaoxuefeng.com/books/java/jdbc/query/index.html)。
+
+## 关联知识与实践
+
+JDBC 提供连接数据库的标准接口，具体数据库需要对应驱动。常见流程是：从数据源取得连接 → 创建 `PreparedStatement` → 设置参数 → 执行 → 读取 `ResultSet` → 关闭资源。用参数占位符传入值，不拼接不可信输入；表名、列名等通常不能直接作为值参数，需要白名单控制。
+
+来源：[教程：JDBC](https://liaoxuefeng.com/books/java/jdbc/index.html)；[JDBC 基础](https://docs.oracle.com/javase/tutorial/jdbc/basics/index.html)。

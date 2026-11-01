@@ -16,3 +16,9 @@
 分别获取 String 类和字符串实例的 Class，比较两者；尝试加载不存在的类并观察异常。
 
 来源：[教程：Class类](https://liaoxuefeng.com/books/java/reflection/class/index.html)。
+
+## 关联知识与实践
+
+反射允许程序在运行时查看类、字段、方法和构造器。获取 `Class` 可从类字面量、实例的 `getClass()` 或类名加载；`getMethod` 查找公开方法，`getDeclaredMethod` 查找本类声明的方法，二者范围不同。
+
+来源：[教程：反射](https://liaoxuefeng.com/books/java/reflection/index.html)；[教程：注解](https://liaoxuefeng.com/books/java/annotation/index.html)。

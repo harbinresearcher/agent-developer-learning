@@ -18,3 +18,9 @@ JAR 是 Java 归档文件，可以打包类和资源。有些 JAR 可通过清�
 将两个带包名的类编译到输出目录，确认目录层级；故意指定错误的运行类路径，观察错误后修复。
 
 来源：[教程：classpath 和 jar](https://liaoxuefeng.com/books/java/oop/basic/classpath-jar/index.html)。
+
+## 关联知识与实践
+
+JAR 是打包后的归档文件，类路径决定运行时在哪里寻找类。项目通常由 Maven 等构建工具管理依赖，不要把机器上的绝对路径写死到源码中。模块系统有独立的可读性和导出规则，初学先掌握包与依赖。
+
+来源：[教程：Java核心类](https://liaoxuefeng.com/books/java/oop/core/index.html)；[Java records](https://docs.oracle.com/en/java/javase/17/language/records.html)。

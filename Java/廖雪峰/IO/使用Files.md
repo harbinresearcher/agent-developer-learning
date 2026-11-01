@@ -16,3 +16,11 @@
 创建临时目录，写入两个文件并列出，再在结束时清理；检查异常路径下的资源释放。
 
 来源：[教程：使用Files](https://liaoxuefeng.com/books/java/io/files/index.html)。
+
+## 关联知识与实践
+
+使用 `try-with-resources` 确保文件和流关闭。`Path` 表达路径，`Files` 提供读取、写入、遍历等操作；大文件优先流式处理，不要无条件一次读入内存。相对路径相对于进程工作目录，不能假设总是源码目录。
+
+读取 UTF-8 文本并统计行数；复制一个二进制文件，比较复制前后的摘要；测试文件不存在和提前中断时资源是否关闭。
+
+来源：[教程：IO](https://liaoxuefeng.com/books/java/io/index.html)；[Java 文件 IO](https://dev.java/learn/java-io/)。
